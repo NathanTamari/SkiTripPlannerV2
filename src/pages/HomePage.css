@@ -1,0 +1,69 @@
+.outer{
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#tsparticles {
+    pointer-events: none;
+}
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 70%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    filter: blur(0.2rem);
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.0 - 1.0) for opacity */
+    z-index: 0;
+}
+
+.input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+    pointer-events: auto;
+}
+
+.input-form form {
+    display: flex;
+    flex-direction: column;  
+    gap: 50px;              
+    width: 80%;             
+    max-width: 600px;        
+    padding: 20px;          
+    border: 1px solid #ccc; 
+    border-radius: 12px;     
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+  
+.input-form form button {
+    padding: 15px 30px;      
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    gap: 20px;                      
+}

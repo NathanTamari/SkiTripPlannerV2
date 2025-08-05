@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;    
+    gap: 1rem;                
+}
+
+label {
+    text-align: center;
+}
+
+button {
+    font-size: x-large;
+    background-color: white;
+    border: 1px solid black;
+}

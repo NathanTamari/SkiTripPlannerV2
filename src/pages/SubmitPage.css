@@ -1,0 +1,56 @@
+.submit-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .submit-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .data-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .data-row:last-child {
+    border-bottom: none;
+  }
+  
+  .data-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .data-value {
+    color: #333;
+  }
+ 
+  .resort-grid {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 16px;
+    margin-top: 10px;
+  }
+  
+  .sort-by {
+    max-width: 200px;
+  }
