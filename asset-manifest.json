@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SkiTripPlannerV2/static/css/main.f39f5038.css",
-    "main.js": "/SkiTripPlannerV2/static/js/main.ad0ce6c5.js",
+    "main.css": "/SkiTripPlannerV2/static/css/main.cd3a81c0.css",
+    "main.js": "/SkiTripPlannerV2/static/js/main.372e5053.js",
     "static/media/ski-video.mp4": "/SkiTripPlannerV2/static/media/ski-video.1a777e6eae60aaa541cb.mp4",
     "index.html": "/SkiTripPlannerV2/index.html",
-    "main.f39f5038.css.map": "/SkiTripPlannerV2/static/css/main.f39f5038.css.map",
-    "main.ad0ce6c5.js.map": "/SkiTripPlannerV2/static/js/main.ad0ce6c5.js.map"
+    "main.cd3a81c0.css.map": "/SkiTripPlannerV2/static/css/main.cd3a81c0.css.map",
+    "main.372e5053.js.map": "/SkiTripPlannerV2/static/js/main.372e5053.js.map"
   },
   "entrypoints": [
-    "static/css/main.f39f5038.css",
-    "static/js/main.ad0ce6c5.js"
+    "static/css/main.cd3a81c0.css",
+    "static/js/main.372e5053.js"
   ]
 }
