@@ -4,2883 +4,3295 @@
     "ticket_cost": 275,
     "latitude": 45.2839783,
     "longitude": -111.401115,
-    "region": "Rockies" 
+    "region": "Rockies",
+    "popularity": 6.7
   },
   {
     "name": "Vail",
     "ticket_cost": 329,
     "latitude": 39.6383847,
     "longitude": -106.3696597,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 8.0
   },
   {
     "name": "Telluride",
     "ticket_cost": 260,
     "latitude": 37.9361867,
     "longitude": -107.8451282,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 7.7
   },
   {
     "name": "Beaver Creek",
     "ticket_cost": 329,
     "latitude": 39.6048786,
     "longitude": -106.5150017,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 8.1
   },
   {
     "name": "Mammoth Mountain",
     "ticket_cost": 259,
     "latitude": 37.6481944,
     "longitude": -118.9752427,
-    "region": "West"
+    "region": "West",
+    "popularity": 6.9
   },
   {
     "name": "Park City",
     "ticket_cost": 328,
     "latitude": 40.654146,
     "longitude": -111.562396,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 8.2
   },
   {
     "name": "Snowmass",
     "ticket_cost": 264,
     "latitude": 39.3310391,
     "longitude": -106.9846471,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 7.7
   },
   {
     "name": "Deer Valley",
     "ticket_cost": 299,
     "latitude": 40.647873387340574,
-    "longitude":  -111.47677493438677,
-    "region": "Rockies"
+    "longitude": -111.47677493438677,
+    "region": "Rockies",
+    "popularity": 8.2
   },
   {
     "name": "Breckenridge",
     "ticket_cost": 299,
     "latitude": 39.4802643,
     "longitude": -106.0673289,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 8.4
   },
   {
     "name": "Palisades Tahoe",
     "ticket_cost": 290,
     "latitude": 39.19257,
     "longitude": -120.2471429,
-    "region": "West"
+    "region": "West",
+    "popularity": 8.3
   },
   {
     "name": "Keystone",
     "ticket_cost": 292,
-    "latitude": 39.58186424927078, 
+    "latitude": 39.58186424927078,
     "longitude": -105.9436044312654,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 6.8
   },
   {
     "name": "Sunday River",
     "ticket_cost": 159,
     "latitude": 44.4718486,
     "longitude": -70.8673378,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 5.2
   },
   {
     "name": "Killington",
     "ticket_cost": 199,
     "latitude": 43.6516287,
     "longitude": -72.8412842,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 6.9
   },
   {
     "name": "Winter Park Resort",
     "ticket_cost": 275,
     "latitude": 39.8716143,
     "longitude": -105.7827088,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 6.9
   },
   {
     "name": "Heavenly",
     "ticket_cost": 265,
-    "latitude": 38.9404518, 
+    "latitude": 38.9404518,
     "longitude": -119.8974215,
-    "region": "West"
+    "region": "West",
+    "popularity": 7.5
   },
   {
     "name": "Snowbird",
     "ticket_cost": 216,
-    "latitude": 40.584437963636475, 
-    "longitude": -111.65084987722867, 
-    "region": "Rockies"
+    "latitude": 40.584437963636475,
+    "longitude": -111.65084987722867,
+    "region": "Rockies",
+    "popularity": 5.4
   },
   {
     "name": "Snowbasin",
     "ticket_cost": 219,
     "latitude": 41.2003657,
     "longitude": -111.8652518,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 5.5
   },
   {
     "name": "Steamboat",
     "ticket_cost": 299,
     "latitude": 40.457489,
     "longitude": -106.7708685,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 6.7
   },
   {
     "name": "Alta",
     "ticket_cost": 199,
-    "latitude": 40.57782249641541, 
+    "latitude": 40.57782249641541,
     "longitude": -111.62403610606427,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 5.0
   },
   {
     "name": "Stowe",
     "ticket_cost": 239,
     "latitude": 44.5297676,
     "longitude": -72.7936843,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.6
   },
   {
     "name": "Solitude",
     "ticket_cost": 189,
     "latitude": 40.6231058,
     "longitude": -111.59763,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.8
   },
   {
     "name": "Brighton",
     "ticket_cost": 159,
     "latitude": 40.5979914,
     "longitude": -111.583719,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.3
   },
   {
     "name": "Aspen Highlands",
     "ticket_cost": 264,
     "latitude": 39.1822344,
     "longitude": -106.8555316,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 5.4
   },
   {
     "name": "Copper Mountain",
     "ticket_cost": 264,
-    "latitude": 39.501346939010546, 
+    "latitude": 39.501346939010546,
     "longitude": -106.15466465871644,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 5.3
   },
   {
     "name": "Jackson Hole",
     "ticket_cost": 269,
     "latitude": 43.5880288,
     "longitude": -110.8292097,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 6.5
   },
   {
     "name": "Crested Butte",
     "ticket_cost": 179,
     "latitude": 38.8970023,
     "longitude": -106.9446829,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 5.7
   },
   {
     "name": "Buttermilk Mountain",
     "ticket_cost": 264,
     "latitude": 43.8678588,
     "longitude": -69.9242151,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.7
   },
   {
     "name": "Mt. Bachelor",
     "ticket_cost": 224,
     "latitude": 43.9793848,
     "longitude": -121.6885078,
-    "region": "West" 
+    "region": "West",
+    "popularity": 6.4
   },
   {
     "name": "Bald Mountain – Sun Valley",
-    "ticket_cost": 209, 
+    "ticket_cost": 209,
     "latitude": 43.6636413,
     "longitude": -114.3894069,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 5.3
   },
   {
     "name": "Whiteface – Lake Placid",
     "ticket_cost": 129,
     "latitude": 44.2969837,
     "longitude": -74.0105758,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 5.6
   },
   {
     "name": "Yellowstone Club",
     "ticket_cost": 270,
     "latitude": 45.6695941,
     "longitude": -111.150857,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.9
   },
   {
     "name": "Schweitzer Mountain Resort",
     "ticket_cost": 150,
-    "region": "Rockies", 
+    "region": "Rockies",
     "latitude": 48.37615504831891,
-    "longitude": -116.61715799021822
+    "longitude": -116.61715799021822,
+    "popularity": 4.0
   },
   {
     "name": "Stratton",
     "ticket_cost": 197,
     "latitude": 43.1026647,
     "longitude": -72.9048371,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.9
   },
   {
     "name": "June Mountain",
     "ticket_cost": 199,
     "latitude": 37.768027126520074,
     "longitude": -119.09090825409835,
-    "region": "West"
+    "region": "West",
+    "popularity": 4.5
   },
   {
     "name": "Arapahoe Basin",
     "ticket_cost": 189,
     "latitude": 39.63424836298236,
-    "longitude":  -105.87125265127645,
-    "region": "Rockies"
+    "longitude": -105.87125265127645,
+    "region": "Rockies",
+    "popularity": 3.8
   },
   {
     "name": "Mt. Hood Meadows",
     "ticket_cost": 164,
     "latitude": 45.3322507,
     "longitude": -121.6650352,
-    "region": "West"
+    "region": "West",
+    "popularity": 5.1
   },
   {
-    "name": "Taos", 
+    "name": "Taos",
     "ticket_cost": 195,
     "latitude": 36.1495118,
     "longitude": -105.5535966,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 5.3
   },
   {
     "name": "Aspen Mountain",
     "ticket_cost": 264,
-    "latitude": 39.186359873189495, 
+    "latitude": 39.186359873189495,
     "longitude": -106.81815838398319,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.5
   },
   {
     "name": "Whitefish Mountain Resort",
     "ticket_cost": 110,
     "latitude": 48.49310857241637,
     "longitude": -114.3578504,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 5.6
   },
   {
     "name": "Angel Fire",
     "ticket_cost": 125,
     "latitude": 36.3915428,
     "longitude": -105.2853972,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.8
   },
   {
     "name": "Sugarloaf",
     "ticket_cost": 139,
     "latitude": 45.03195897902545,
-    "longitude":  -70.3129514992836,
-    "region": "Northeast"
+    "longitude": -70.3129514992836,
+    "region": "Northeast",
+    "popularity": 4.5
   },
   {
     "name": "Sugarbush",
     "ticket_cost": 243,
     "latitude": 44.5417138,
     "longitude": -73.9698685,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.6
   },
   {
     "name": "Sierra at Tahoe",
     "ticket_cost": 175,
     "latitude": 38.7960972,
     "longitude": -120.0768961,
-    "region": "West"
+    "region": "West",
+    "popularity": 5.1
   },
   {
     "name": "Homewood Mountain Resort",
     "ticket_cost": 159,
     "latitude": 39.0856092,
     "longitude": -120.1612656,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.4
   },
   {
     "name": "Wolf Creek",
     "ticket_cost": 91,
     "latitude": 37.4724615,
-    "longitude":  -106.79289332954018,
-    "region": "Rockies"
+    "longitude": -106.79289332954018,
+    "region": "Rockies",
+    "popularity": 3.3
   },
   {
     "name": "Purgatory – Durango",
-    "ticket_cost": 129, 
+    "ticket_cost": 129,
     "latitude": 37.556879,
     "longitude": -107.7800368,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.3
   },
   {
     "name": "Bolton Valley",
     "ticket_cost": 119,
-    "latitude": 44.422562408922225, 
+    "latitude": 44.422562408922225,
     "longitude": -72.85144426534126,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.0
   },
   {
     "name": "Sugar Bowl",
     "ticket_cost": 244,
     "latitude": 39.30175410484339,
-    "longitude":  -120.33485120473291,
-    "region": "West"
+    "longitude": -120.33485120473291,
+    "region": "West",
+    "popularity": 3.2
   },
   {
     "name": "Jay Peak",
     "ticket_cost": 129,
     "latitude": 44.9242294,
     "longitude": -72.5256931,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.4
   },
   {
     "name": "Okemo",
     "ticket_cost": 207,
     "latitude": 43.4018363,
     "longitude": -72.7169741,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.7
   },
   {
     "name": "Mount Snow",
     "ticket_cost": 149,
     "latitude": 42.9589685,
     "longitude": -72.9237112,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.3
   },
   {
     "name": "Bear Valley",
     "ticket_cost": 169,
     "latitude": 38.4852646,
-    "longitude":  -120.0439328757465,
-    "region": "West"
+    "longitude": -120.0439328757465,
+    "region": "West",
+    "popularity": 4.2
   },
   {
     "name": "Red Lodge Mountain",
     "ticket_cost": 107,
     "latitude": 45.1898079,
     "longitude": -109.3534308,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.0
   },
   {
     "name": "Powder Mountain",
     "ticket_cost": 219,
     "latitude": 41.38183496241045,
     "longitude": -111.78147872180196,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.8
   },
   {
     "name": "Bretton Woods",
     "ticket_cost": 129,
     "latitude": 44.2599728,
     "longitude": -71.4430242,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.8
   },
   {
     "name": "Mt. Rose",
     "ticket_cost": 179,
     "latitude": 39.31527908184662,
     "longitude": -119.88246989079839,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.3
   },
   {
     "name": "49 Degrees North Mountain Resort",
     "ticket_cost": 84,
     "region": "West",
     "latitude": 48.30127559579715,
-    "longitude": -117.5629053748824
+    "longitude": -117.5629053748824,
+    "popularity": 3.1
   },
   {
     "name": "Smugglers' Notch",
     "ticket_cost": 119,
     "latitude": 44.59078672463272,
     "longitude": -72.78443676163687,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.5
   },
   {
     "name": "Alyeska Resort – Girdwood",
     "ticket_cost": 169,
     "latitude": 60.9618866,
     "longitude": -149.0808696,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.4
   },
   {
     "name": "Loveland",
     "ticket_cost": 149,
     "latitude": 40.3977612,
     "longitude": -105.07498,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.0
   },
   {
     "name": "Gore Mountain",
     "ticket_cost": 109,
-    "latitude": 43.83422002854397, 
+    "latitude": 43.83422002854397,
     "longitude": -74.04031774710771,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.6
   },
   {
     "name": "Kirkwood",
     "ticket_cost": 187,
     "latitude": 38.6757656,
     "longitude": -120.0616033,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.6
   },
   {
     "name": "Bridger Bowl – Bozeman",
     "ticket_cost": 97,
     "latitude": 45.7033552,
     "longitude": -111.0261859,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.8
   },
   {
     "name": "Bogus Basin",
     "ticket_cost": 79,
     "latitude": 44.8710842,
     "longitude": -111.5913777,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.7
   },
   {
     "name": "Crystal Mountain (WA)",
     "ticket_cost": 199,
     "latitude": 46.9327365,
     "longitude": -121.4877287,
-    "region": "West"
+    "region": "West",
+    "popularity": null
   },
   {
     "name": "Hunter Mountain",
     "ticket_cost": 119,
     "latitude": 42.1778662,
     "longitude": -74.2304216,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.1
   },
   {
     "name": "Loon Mountain",
     "ticket_cost": 145,
     "latitude": 44.0450575,
     "longitude": -71.6366372,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 4.6
   },
   {
     "name": "Apache",
     "ticket_cost": 195,
     "latitude": 35.214632,
     "longitude": -109.4786676,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.6
   },
   {
     "name": "Tamarack Resort",
     "ticket_cost": 140,
     "latitude": 44.6845884,
     "longitude": -116.1434326,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.7
   },
   {
     "name": "Stevens Pass",
     "ticket_cost": 119,
     "latitude": 47.7456352,
     "longitude": -121.089171,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.7
   },
   {
     "name": "Timberline",
     "ticket_cost": 149,
     "latitude": 39.04272795574944,
-    "longitude":  -79.3989119871208,
-    "region": "Midatlantic"
+    "longitude": -79.3989119871208,
+    "region": "Midatlantic",
+    "popularity": 5.2
   },
   {
     "name": "Windham Mountain",
     "ticket_cost": 225,
-    "latitude": 42.40842072194736, 
+    "latitude": 42.40842072194736,
     "longitude": -74.30171108107362,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.0
   },
   {
     "name": "Arizona Snowbowl",
     "ticket_cost": 127,
     "latitude": 35.3299854,
     "longitude": -111.7053083,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.5
   },
   {
     "name": "Mt. Hood Skibowl",
     "ticket_cost": 89,
     "latitude": 45.2939973,
     "longitude": -121.7805412,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.8
   },
   {
     "name": "Grand Targhee",
     "ticket_cost": 170,
     "latitude": 43.7849766,
     "longitude": -110.9469857,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 4.8
   },
   {
     "name": "Holiday Valley",
     "ticket_cost": 105,
     "latitude": 42.26415502691567,
-    "longitude":  -78.66701145456246,
-    "region": "Northeast"
+    "longitude": -78.66701145456246,
+    "region": "Northeast",
+    "popularity": 2.3
   },
   {
     "name": "Cannon Mountain",
     "ticket_cost": 134,
     "latitude": 44.1566923,
     "longitude": -71.6986205,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.5
   },
   {
     "name": "Brian Head",
     "ticket_cost": 97,
     "latitude": 37.6927551,
     "longitude": -112.850776,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.1
   },
   {
     "name": "Attitash Mountain Resort",
     "ticket_cost": 144,
     "latitude": 44.0742099,
     "longitude": -71.2446654,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.9
   },
   {
     "name": "Discovery Ski Area",
     "ticket_cost": 65,
     "latitude": 46.2637557,
     "longitude": -113.2424489,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.9
   },
   {
     "name": "Wenatchee – Mission Ridge",
     "ticket_cost": 119,
     "latitude": 47.3099982,
     "longitude": -120.3920956,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.2
   },
   {
     "name": "Lutsen Mountains",
     "ticket_cost": 105,
     "latitude": 47.6560207,
     "longitude": -90.7250701,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.7
   },
   {
     "name": "Bromley Mountain",
     "ticket_cost": 96,
     "latitude": 43.2205924,
     "longitude": -72.9369274,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.7
   },
   {
     "name": "Eldora Mountain",
     "ticket_cost": 199,
     "latitude": 39.9372535,
     "longitude": -105.5839741,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.9
   },
   {
     "name": "White Pass",
     "ticket_cost": 75,
-    "latitude": 46.63751513531634, 
+    "latitude": 46.63751513531634,
     "longitude": -121.39109799829077,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.3
   },
   {
     "name": "Powderhorn",
     "ticket_cost": 119,
     "latitude": 39.0698208,
     "longitude": -108.150835,
-    "region": "Rockies" 
+    "region": "Rockies",
+    "popularity": 2.7
   },
   {
     "name": "Cranmore Mountain Resort",
     "ticket_cost": 119,
     "latitude": 44.0572165,
     "longitude": -71.1000343,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.1
   },
   {
     "name": "Pico Mountain",
     "ticket_cost": 124,
-    "latitude": 43.6516287, 
+    "latitude": 43.6516287,
     "longitude": -72.8412842,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 3.2
   },
   {
     "name": "Brundage Mountain",
     "ticket_cost": 125,
     "latitude": 45.004605,
     "longitude": -116.1556103,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.0
   },
   {
     "name": "Lost Trail Powder Mountain",
     "ticket_cost": 99,
     "latitude": 45.6918629,
     "longitude": -113.9523593,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.9
   },
   {
     "name": "Mad River Glen",
     "ticket_cost": 99,
     "latitude": 44.1975661,
     "longitude": -72.9238018,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.5
   },
   {
     "name": "Sundance",
     "ticket_cost": 159,
     "latitude": 40.390898,
     "longitude": -111.577661,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.3
   },
   {
     "name": "Gunstock",
     "ticket_cost": 109,
     "latitude": 43.5410614,
     "longitude": -71.3662455,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.5
   },
   {
     "name": "Big Snow American Dream (indoor ski area)",
     "ticket_cost": 169,
     "latitude": 40.809588,
     "longitude": -74.071157,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": null
   },
   {
     "name": "Dodge Ridge",
     "ticket_cost": 109,
     "latitude": 38.1657088,
     "longitude": -119.9801175,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.6
   },
   {
     "name": "Great Divide",
     "ticket_cost": 68,
     "latitude": 44.7005016,
     "longitude": -111.4730607,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.2
   },
   {
     "name": "Bear Mountain – Big Bear Lake",
     "ticket_cost": 169,
     "latitude": 34.2273607,
     "longitude": -116.8614337,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.9
   },
   {
     "name": "Mt. Sunapee",
     "ticket_cost": 119,
     "latitude": 43.3399279,
     "longitude": -72.0652753,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.3
   },
   {
     "name": "Lookout Pass",
     "ticket_cost": 73,
     "latitude": 47.4508256,
     "longitude": -115.7127341,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.4
   },
   {
     "name": "Silver Mountain",
     "ticket_cost": 77,
     "latitude": 47.514478695876484,
-    "longitude":  -116.15710981950457,
-    "region": "Rockies"
+    "longitude": -116.15710981950457,
+    "region": "Rockies",
+    "popularity": 3.4
   },
   {
     "name": "Santa Fé",
     "ticket_cost": 105,
     "latitude": 35.6876096,
     "longitude": -105.938456,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.5
   },
   {
     "name": "Ragged Mountain",
     "ticket_cost": 119,
     "latitude": 43.4782052,
     "longitude": -71.8440931,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.4
   },
   {
     "name": "Waterville Valley",
     "ticket_cost": 139,
     "latitude": 43.9496312,
     "longitude": -71.5056972,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.2
   },
   {
     "name": "Terry Peak",
     "ticket_cost": 99,
     "latitude": 41.0258168,
     "longitude": -104.8730246,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.2
   },
   {
     "name": "Blue Mountain",
     "ticket_cost": 99,
-    "latitude": 40.81080298080535, 
+    "latitude": 40.81080298080535,
     "longitude": -75.52074601031778,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 2.1
   },
   {
     "name": "Wildcat Mountain",
     "ticket_cost": 144,
     "latitude": 44.2589548,
     "longitude": -71.2014625,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.8
   },
   {
     "name": "Snowshoe Mountain",
     "ticket_cost": 169,
-    "latitude": 38.40310929606787, 
+    "latitude": 38.40310929606787,
     "longitude": -79.99371887181677,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 3.6
   },
   {
     "name": "Snow Valley",
-    "ticket_cost": 169, 
-    "latitude": 34.2249953, 
+    "ticket_cost": 169,
+    "latitude": 34.2249953,
     "longitude": -117.0353312,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.5
   },
   {
     "name": "Beaver Mountain",
     "ticket_cost": 70,
-    "latitude": 41.968338140076845, 
-    "longitude":-111.54409038285007,
-    "region": "West"
+    "latitude": 41.968338140076845,
+    "longitude": -111.54409038285007,
+    "region": "West",
+    "popularity": 2.6
   },
   {
     "name": "Granite Peak at Rib Mountain State Park",
     "ticket_cost": 105,
     "latitude": 44.92052,
     "longitude": -89.68735,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 2.4
   },
   {
     "name": "The Highlands at Harbor Springs",
     "ticket_cost": 112,
     "latitude": 45.43168,
     "longitude": -84.992,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 2.5
   },
   {
     "name": "Willamette Pass – Crescent",
     "ticket_cost": 66,
     "latitude": 43.5271148,
     "longitude": -121.9425402,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.9
   },
   {
     "name": "Saddleback",
     "ticket_cost": 139,
-    "latitude": 44.94798850596311, 
+    "latitude": 44.94798850596311,
     "longitude": -70.5269519450479,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.5
   },
   {
     "name": "Snow Summit – Big Bear Lake",
     "ticket_cost": 169,
     "latitude": 34.2376168,
     "longitude": -116.8886,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.8
   },
   {
     "name": "Sandia Peak",
     "ticket_cost": 79,
     "latitude": 35.2100445,
     "longitude": -106.4496496,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.9
   },
   {
     "name": "Timberline Mountain",
     "ticket_cost": 95,
     "latitude": 39.09829344895214,
     "longitude": -79.46052585941773,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.6
   },
   {
     "name": "Mountain Creek – Vernon",
     "ticket_cost": 99,
     "latitude": 41.1902849,
     "longitude": -74.5049738,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 2.2
   },
   {
     "name": "Haystack Mountain – The Hermitage Club",
     "ticket_cost": 139,
     "latitude": 42.9235316,
     "longitude": -72.9012626,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.4
   },
   {
     "name": "The Summit at Snoqualmie",
     "ticket_cost": 140,
     "latitude": 47.52871,
     "longitude": -121.82539,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.3
   },
   {
     "name": "Mt. Spokane",
     "ticket_cost": 80,
     "latitude": 47.9279766,
     "longitude": -117.113635,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.0
   },
   {
     "name": "Bristol Mountain",
     "ticket_cost": 90,
-    "latitude": 42.7417816, 
+    "latitude": 42.7417816,
     "longitude": -77.4157498,
-    "region": " "
+    "region": " ",
+    "popularity": 1.3
   },
   {
     "name": "Silverton Mountain",
     "ticket_cost": 269,
-    "latitude": 37.8847265199958, 
-    "longitude":-107.66591900437506,
-    "region": "Rockies"
+    "latitude": 37.8847265199958,
+    "longitude": -107.66591900437506,
+    "region": "Rockies",
+    "popularity": 3.1
   },
   {
     "name": "Wachusett Mountain",
     "ticket_cost": 107,
     "latitude": 42.5032137,
     "longitude": -71.8862312,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.9
   },
   {
     "name": "Pleasant Mountain",
     "ticket_cost": 95,
     "latitude": 44.0270146,
     "longitude": -70.8220088,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.9
   },
   {
     "name": "Pats Peak",
     "ticket_cost": 99,
     "latitude": 43.1568132,
     "longitude": -71.7944871,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.2
   },
   {
     "name": "Sugar Mountain",
     "ticket_cost": 94,
     "latitude": 36.1277635,
     "longitude": -81.869162,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 2.9
   },
   {
     "name": "Titus Mountain",
     "ticket_cost": 79,
     "latitude": 44.7542649,
     "longitude": -74.2413111,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.2
   },
   {
     "name": "Granby Ranch",
     "ticket_cost": 164,
     "latitude": 40.0502461,
     "longitude": -105.8963578,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.0
   },
   {
     "name": "Mt. Shasta Ski Park",
     "ticket_cost": 99,
     "latitude": 41.3214093,
     "longitude": -122.203439,
-    "region": "West"
-  }, 
+    "region": "West",
+    "popularity": 3.8
+  },
   {
     "name": "Pajarito Mountain",
     "ticket_cost": 65,
     "latitude": 35.8878012,
     "longitude": -106.4005859,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.4
   },
   {
     "name": "Diamond Peak",
     "ticket_cost": 180,
     "latitude": 40.9502385,
     "longitude": -108.8781712,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.6
   },
   {
     "name": "Maverick Mountain",
     "ticket_cost": 49,
     "latitude": 45.4485354,
     "longitude": -113.1631003,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.7
   },
   {
     "name": "Boreal",
     "ticket_cost": 69,
     "latitude": 46.52247739305712,
-    "longitude":  -67.82896756150934,
-    "region": "Northeast"
+    "longitude": -67.82896756150934,
+    "region": "Northeast",
+    "popularity": 1.2
   },
   {
     "name": "Mountain High",
     "ticket_cost": 149,
     "latitude": 34.376641,
     "longitude": -117.6911717,
-    "region": "West"
+    "region": "West",
+    "popularity": null
   },
   {
     "name": "Belleayre Mountain",
     "ticket_cost": 114,
     "latitude": 42.1268934,
     "longitude": -74.4740747,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.8
   },
   {
     "name": "Cooper",
     "ticket_cost": 110,
     "latitude": 39.36048540515007,
-    "longitude":  -106.30156302147765,
-    "region": "Rockies"
+    "longitude": -106.30156302147765,
+    "region": "Rockies",
+    "popularity": 1.2
   },
   {
     "name": "Mt. Baldy",
     "ticket_cost": 115,
     "latitude": 34.2364191,
-    "longitude": -117.6591731, 
-    "region": "West"
+    "longitude": -117.6591731,
+    "region": "West",
+    "popularity": 3.4
   },
   {
     "name": "Pebble Creek",
     "ticket_cost": 76,
     "latitude": 42.77872244162839,
-    "longitude":  -112.15931199058795,
-    "region": "Rockies"
+    "longitude": -112.15931199058795,
+    "region": "Rockies",
+    "popularity": 3.1
   },
   {
     "name": "Mt. Baker",
     "ticket_cost": 94,
-    "latitude": 48.8551968, 
+    "latitude": 48.8551968,
     "longitude": -121.6660375,
-    "region": "West"
+    "region": "West",
+    "popularity": 3.1
   },
   {
     "name": "Butternut",
     "ticket_cost": 85,
-    "latitude":42.18366692123534, 
+    "latitude": 42.18366692123534,
     "longitude": -73.32008958877833,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.8
   },
   {
     "name": "Holimont",
     "ticket_cost": 114,
     "latitude": 42.2726907,
     "longitude": -78.6888956,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.8
   },
   {
     "name": "Sunlight Mountain",
-    "ticket_cost": 104, 
+    "ticket_cost": 104,
     "latitude": 39.3902923,
     "longitude": -107.3381957,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.8
   },
   {
     "name": "Spirit Mountain",
     "ticket_cost": 86,
     "latitude": 46.71845961489031,
-    "longitude":  -92.21690816518962,
-    "region": "Midwest"
+    "longitude": -92.21690816518962,
+    "region": "Midwest",
+    "popularity": 1.5
   },
   {
     "name": "Showdown",
     "ticket_cost": 68,
-    "latitude": 46.83852887144475, 
+    "latitude": 46.83852887144475,
     "longitude": -110.70047307498226,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.9
   },
   {
     "name": "Red River",
     "ticket_cost": 129,
-    "latitude": 36.7066588678476, 
-    "longitude":-105.41271576775057,
-    "region": "Rockies"
+    "latitude": 36.7066588678476,
+    "longitude": -105.41271576775057,
+    "region": "Rockies",
+    "popularity": 2.9
   },
   {
     "name": "Burke Mountain",
     "ticket_cost": 89,
     "latitude": 44.5801297,
     "longitude": -71.8967182,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 3.0
   },
   {
     "name": "Cherry Peak",
     "ticket_cost": 55,
     "latitude": 41.92636413583565,
-    "longitude":  -111.75643799064103,
-    "region": "Rockies"
+    "longitude": -111.75643799064103,
+    "region": "Rockies",
+    "popularity": 2.4
   },
   {
     "name": "Seven Springs",
     "ticket_cost": 111,
-    "latitude": 40.0234876, 
+    "latitude": 40.0234876,
     "longitude": -79.2982472,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 2.0
   },
   {
     "name": "Cascade Mountain",
     "ticket_cost": 99,
-    "latitude": 43.503825636276964, 
-    "longitude":-89.51722471753058,
-    "region": "Midwest"
+    "latitude": 43.503825636276964,
+    "longitude": -89.51722471753058,
+    "region": "Midwest",
+    "popularity": 1.4
   },
   {
     "name": "Nordic Valley",
     "ticket_cost": 72,
-    "latitude": 41.30182304641293, 
+    "latitude": 41.30182304641293,
     "longitude": -111.85890695394946,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.3
   },
   {
     "name": "Arctic Valley",
     "ticket_cost": 55,
     "latitude": 61.247703,
     "longitude": -149.5204483,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.3
   },
   {
     "name": "Eagle Point",
     "ticket_cost": 90,
     "latitude": 38.3203667,
     "longitude": -112.3838571,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.2
   },
   {
     "name": "BigRock Mountain",
     "ticket_cost": 60,
     "latitude": 46.5222263,
     "longitude": -67.8286214,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.3
   },
   {
     "name": "Shawnee Mountain",
     "ticket_cost": 85,
     "latitude": 41.040575729108724,
-    "longitude":  -75.08568233950844,
-    "region": "Northeast"
+    "longitude": -75.08568233950844,
+    "region": "Northeast",
+    "popularity": 1.7
   },
   {
     "name": "Greek Peak",
     "ticket_cost": 115,
     "latitude": 42.5023204,
     "longitude": -76.1480456,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.4
   },
   {
     "name": "Boyne Mountain",
     "ticket_cost": 110,
     "latitude": 45.1586201,
     "longitude": -84.9389365,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.6
   },
   {
     "name": "Wintergreen Resort",
     "ticket_cost": 139,
     "latitude": 38.02856168730426,
-    "longitude":  -78.92959080541004,
-    "region": "Midatlantic"
+    "longitude": -78.92959080541004,
+    "region": "Midatlantic",
+    "popularity": 1.9
   },
   {
     "name": "Antelope Butte",
     "ticket_cost": 69,
     "latitude": 46.4886174,
     "longitude": -102.0212665,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.0
   },
   {
     "name": "Pine Creek",
     "ticket_cost": 65,
     "latitude": 42.1030809939159,
-    "longitude":  -110.82884934830054,
-    "region": "Rockies"
+    "longitude": -110.82884934830054,
+    "region": "Rockies",
+    "popularity": 2.3
   },
   {
     "name": "Wisp – McHenry (Deep Creek Lake)",
     "ticket_cost": 129,
     "latitude": 39.55712409865364,
     "longitude": -79.36337150243158,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Alpental",
     "ticket_cost": 140,
     "latitude": 47.4408861,
     "longitude": -121.4328497,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.9
   },
   {
     "name": "Berkshire East",
     "ticket_cost": 99,
     "latitude": 42.62580031073636,
     "longitude": -72.87724466863993,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.9
   },
   {
     "name": "Kissing Bridge",
     "ticket_cost": 88,
     "latitude": 42.5997041,
     "longitude": -78.6574969,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.4
   },
   {
     "name": "Dartmouth Skiway",
     "ticket_cost": 65,
     "latitude": 43.787898,
     "longitude": -72.0943395,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.9
   },
   {
     "name": "Hoodoo Ski Area",
     "ticket_cost": 85,
     "latitude": 44.4034058,
     "longitude": -121.8817603,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.8
   },
   {
     "name": "Labrador Mountain",
     "ticket_cost": 74,
     "latitude": 42.7402398,
     "longitude": -76.0346328,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.4
   },
   {
     "name": "Blacktail Mountain",
     "ticket_cost": 80,
-    "latitude": 48.496572, 
+    "latitude": 48.496572,
     "longitude": -114.36972773653872,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.9
   },
   {
     "name": "Snow King Mountain – Jackson",
     "ticket_cost": 95,
     "latitude": 43.4705933,
     "longitude": -110.7550792,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 3.8
   },
   {
     "name": "Skiland – Mt. Aurora",
     "ticket_cost": 55,
     "latitude": 65.0457159,
     "longitude": -147.4077907,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.7
   },
   {
     "name": "Snowy Range",
     "ticket_cost": 69,
     "latitude": 41.3222487,
     "longitude": -106.172769,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.7
   },
   {
     "name": "Blue Knob",
     "ticket_cost": 90,
     "latitude": 40.2884092,
     "longitude": -78.5616833,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.6
   },
   {
     "name": "Eaglecrest – Juneau",
     "ticket_cost": 75,
     "latitude": 58.2677706,
     "longitude": -134.5094172,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.2
   },
   {
     "name": "Turner Mountain",
     "ticket_cost": 45,
     "latitude": 48.6073358,
     "longitude": -115.6417571,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.7
   },
   {
     "name": "Nub's Nob Ski Area",
     "ticket_cost": 110,
     "latitude": 45.471488,
     "longitude": -84.9053257,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.7
   },
   {
     "name": "Dollar Mountain – Sun Valley",
     "ticket_cost": 139,
     "latitude": 43.6817047,
     "longitude": -114.3445547,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.2
   },
   {
     "name": "Giants Ridge",
     "ticket_cost": 64,
     "latitude": 47.5783847,
     "longitude": -92.3045478,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.6
   },
   {
     "name": "Whitecap Mountains",
     "ticket_cost": 85,
     "latitude": 46.4078933,
     "longitude": -90.3956714,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.2
   },
   {
     "name": "Middlebury College Snow Bowl",
     "ticket_cost": 65,
     "latitude": 43.9344876,
     "longitude": -72.9569416,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.4
   },
   {
     "name": "Pomerelle",
     "ticket_cost": 68,
     "latitude": 42.3137847,
     "longitude": -113.614279,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.4
   },
   {
     "name": "Sipapu",
     "ticket_cost": 72,
     "latitude": 36.1495118,
     "longitude": -105.5535966,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.9
   },
   {
     "name": "Mt. Ashland",
     "ticket_cost": 79,
     "latitude": 45.598282,
     "longitude": -106.275275,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 2.0
   },
   {
     "name": "Catamount",
     "ticket_cost": 105,
     "latitude": 42.1655891,
     "longitude": -73.4772872,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.9
   },
   {
     "name": "Beech Mountain",
     "ticket_cost": 79,
     "latitude": 36.1914373,
     "longitude": -81.8781191,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 2.1
   },
   {
     "name": "Elk Mountain",
     "ticket_cost": 89,
-    "latitude": 41.7195945, 
+    "latitude": 41.7195945,
     "longitude": -75.5584303,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 2.0
   },
   {
     "name": "Sleeping Giant",
     "ticket_cost": 70,
     "latitude": 44.49308428952797,
-    "longitude":  -109.93933611589215,
-    "region": "Rockies"
+    "longitude": -109.93933611589215,
+    "region": "Rockies",
+    "popularity": 1.5
   },
   {
     "name": "Whitetail",
     "ticket_cost": 128,
     "latitude": 39.7425982532382,
     "longitude": -77.93356593411124,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.8
   },
   {
     "name": "Tahoe Donner",
     "ticket_cost": 110,
     "latitude": 39.3519001,
     "longitude": -120.2305019,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.3
   },
   {
     "name": "Black Mountain – Rumford",
     "ticket_cost": 60,
     "latitude": 44.5839209,
     "longitude": -70.6370712,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.1
   },
   {
     "name": "Plattekill",
     "ticket_cost": 98,
-    "latitude": 42.290435866510215, 
+    "latitude": 42.290435866510215,
     "longitude": -74.65325797712418,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.6
   },
   {
     "name": "Tenney Mountain",
     "ticket_cost": 85,
     "latitude": 43.7444571,
     "longitude": -71.7690923,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.3
   },
   {
     "name": "Mt. Bohemia",
     "ticket_cost": 95,
     "latitude": 47.3915774,
     "longitude": -88.0131634,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.7
   },
   {
     "name": "Song Mountain",
     "ticket_cost": 85,
     "latitude": 42.7711578,
     "longitude": -76.1626753,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.9
   },
   {
     "name": "Mt. Abram",
     "ticket_cost": 39,
     "latitude": 44.3695112,
     "longitude": -70.7125668,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.1
   },
   {
     "name": "Jiminy Peak",
     "ticket_cost": 109,
     "latitude": 42.5488979,
     "longitude": -73.2830361,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 2.1
   },
   {
     "name": "Crotched Mountain",
     "ticket_cost": 94,
     "latitude": 42.9982909,
     "longitude": -71.8739065,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.8
   },
   {
     "name": "Bluewood",
     "ticket_cost": 65,
     "latitude": 46.08385301940426,
     "longitude": -117.8501617769808,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.1
   },
   {
     "name": "Teton Pass",
     "ticket_cost": 59,
     "latitude": 47.9301982,
     "longitude": -112.8113091,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.8
   },
   {
     "name": "Jackson Creek Summit (Snowriver Mountain Resort)",
     "ticket_cost": 119,
     "latitude": 46.5003877490813,
-    "longitude":  -89.9710677498633,
-    "region": "Midwest"
+    "longitude": -89.9710677498633,
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Loup Loup Ski Bowl",
     "ticket_cost": 70,
     "latitude": 48.39196,
     "longitude": -119.9183704,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.3
   },
   {
     "name": "Shanty Creek Resorts – Schuss Mountain",
     "ticket_cost": 96,
     "latitude": 44.9440307,
     "longitude": -85.1360928,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.3
   },
   {
     "name": "White Pine – Pinedale",
     "ticket_cost": 65,
     "latitude": 42.86661,
     "longitude": -109.86099,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.9
   },
   {
     "name": "Caberfae Peaks",
     "ticket_cost": 79,
     "latitude": 44.244227,
     "longitude": -85.7198411,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.1
   },
   {
     "name": "Jack Frost Mountain",
     "ticket_cost": 105,
     "latitude": 41.1103614,
     "longitude": -75.6519231,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.5
   },
   {
     "name": "Mt. Kato",
     "ticket_cost": 59,
     "latitude": 44.1307502,
     "longitude": -94.0366181,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.4
   },
   {
     "name": "Deer Mountain",
     "ticket_cost": 99,
-    "latitude": 40.639734025467654, 
+    "latitude": 40.639734025467654,
     "longitude": -111.47589083438983,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.3
   },
   {
     "name": "Devil's Head",
     "ticket_cost": 95,
-    "latitude": 43.41822177426361, 
+    "latitude": 43.41822177426361,
     "longitude": -89.6268435598655,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.4
   },
   {
     "name": "Massanutten",
     "ticket_cost": 95,
-    "latitude": 38.3988308, 
+    "latitude": 38.3988308,
     "longitude": -78.7597454,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 2.2
   },
   {
     "name": "Bear Creek Mountain Resort",
     "ticket_cost": 85,
     "latitude": 40.4746724,
     "longitude": -75.6294702,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.6
   },
   {
     "name": "Bittersweet",
     "ticket_cost": 72,
     "latitude": 42.4654216,
     "longitude": -85.7608186,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.7
   },
   {
     "name": "Whaleback",
     "ticket_cost": 50,
     "latitude": 42.5487067,
     "longitude": -70.7842131,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.4
   },
   {
     "name": "Canaan Valley",
     "ticket_cost": 90,
     "latitude": 39.0061024,
     "longitude": -79.4395785,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.9
   },
   {
     "name": "Saskadena Six",
     "ticket_cost": 109,
     "latitude": 43.6627316,
     "longitude": -72.547428,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.1
   },
   {
     "name": "Meadowlark Ski Lodge",
     "ticket_cost": 62,
     "latitude": 44.1639931,
     "longitude": -107.2154999,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.6
   },
   {
     "name": "Big Powderhorn Mountain",
     "ticket_cost": 89,
     "latitude": 46.5055854,
     "longitude": -90.0935334,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 2.1
   },
   {
     "name": "Swain",
     "ticket_cost": 79,
-    "latitude": 42.477014680704805, 
+    "latitude": 42.477014680704805,
     "longitude": -77.8545394699708,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.6
   },
   {
     "name": "Cloudcroft",
     "ticket_cost": 65,
     "latitude": 32.9576648,
     "longitude": -105.742721,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.2
   },
   {
     "name": "Magic Mountain Resort",
     "ticket_cost": 40,
     "latitude": 44.66874076492108,
     "longitude": -72.99363331366804,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.3
   },
   {
     "name": "Warner Canyon – Lakeview",
     "ticket_cost": 40,
     "latitude": 42.2370942,
     "longitude": -120.2944044,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.4
   },
   {
     "name": "Spout Springs (temporarily closed)",
     "ticket_cost": 35,
-    "latitude": 45.75645680327253, 
+    "latitude": 45.75645680327253,
     "longitude": -118.05030263434273,
-    "region": "West"
+    "region": "West",
+    "popularity": null
   },
   {
     "name": "Liberty Mountain",
     "ticket_cost": 84,
     "latitude": 39.7606369,
     "longitude": -77.3685341,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.3
   },
   {
     "name": "Cooper Spur",
     "ticket_cost": 49,
     "latitude": 45.4256641,
     "longitude": -121.5908747,
-    "region": "West"
+    "region": "West",
+    "popularity": 0.5
   },
   {
     "name": "Hidden Valley (PA)",
     "ticket_cost": 76,
     "latitude": 40.1067745,
     "longitude": -75.3779632,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": null
   },
   {
     "name": "Marquette Mountain",
     "ticket_cost": 80,
     "latitude": 46.5079579,
     "longitude": -87.4203185,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.3
   },
   {
     "name": "West Mountain",
     "ticket_cost": 89,
     "latitude": 43.2892981,
     "longitude": -73.7384141,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.7
   },
   {
     "name": "Mt. Waterman",
     "ticket_cost": 70,
     "latitude": 34.3493929,
     "longitude": -117.928836,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.8
   },
   {
     "name": "Soda Springs",
     "ticket_cost": 70,
     "latitude": 39.3361428,
     "longitude": -120.3501644,
-    "region": "West"
+    "region": "West",
+    "popularity": 0.9
   },
   {
     "name": "Oak Mountain",
     "ticket_cost": 56,
     "latitude": 43.51356394581529,
     "longitude": -74.36096929031763,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.5
   },
   {
     "name": "Mt. Holly",
     "ticket_cost": 69,
     "latitude": 42.829319,
     "longitude": -83.5653589,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.4
   },
   {
     "name": "Montage Mountain Resort",
     "ticket_cost": 89,
     "latitude": 41.35141998184813,
     "longitude": -75.66286328310689,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.5
   },
   {
     "name": "Anthony Lakes Mountain Resort",
     "ticket_cost": 50,
     "latitude": 44.9611568,
     "longitude": -118.2396817,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.0
   },
   {
     "name": "Winterplace",
     "ticket_cost": 85,
     "latitude": 37.5975721,
     "longitude": -81.1212251,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.7
   },
   {
     "name": "Bear Paw Ski Bowl",
     "ticket_cost": 25,
     "latitude": 48.17777,
     "longitude": -109.63408,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.6
   },
   {
     "name": "Pine Mountain",
     "ticket_cost": 69,
-    "latitude": 45.840167406569186, 
+    "latitude": 45.840167406569186,
     "longitude": -88.08863184454928,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.9
   },
   {
     "name": "Peek'n Peak",
     "ticket_cost": 76,
     "latitude": 42.0635772,
     "longitude": -79.7404735,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.6
   },
   {
     "name": "Bousquet",
     "ticket_cost": 80,
-    "latitude": 42.42271546286244, 
+    "latitude": 42.42271546286244,
     "longitude": -73.27836427497877,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.2
   },
   {
     "name": "Alpine Mountain Ski & Snow Tubing Center (temporarily closed)",
     "ticket_cost": 55,
-    "latitude": 41.11513048042609, 
+    "latitude": 41.11513048042609,
     "longitude": -75.22560496276456,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": null
   },
   {
     "name": "Buffalo Ski Center",
     "ticket_cost": 57,
-    "latitude": 42.681225864436804, 
+    "latitude": 42.681225864436804,
     "longitude": -78.69203432338563,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": null
   },
   {
     "name": "Big Squaw",
     "ticket_cost": 40,
-    "latitude":45.506842228001084, 
-    "longitude":-69.70202696093436,
-    "region": "Northeast"
+    "latitude": 45.506842228001084,
+    "longitude": -69.70202696093436,
+    "region": "Northeast",
+    "popularity": 1.1
   },
   {
     "name": "Royal Mountain",
     "ticket_cost": 60,
     "latitude": 43.08154431790607,
-    "longitude":  -74.50494287257807,
-    "region": "Northeast"
+    "longitude": -74.50494287257807,
+    "region": "Northeast",
+    "popularity": 1.1
   },
   {
     "name": "Badger Pass",
     "ticket_cost": 69,
     "latitude": 37.66248849556975,
     "longitude": -119.663333317882,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.5
   },
   {
     "name": "Otsego – Gaylord",
     "ticket_cost": 75,
     "latitude": 45.027513,
     "longitude": -84.674752,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.2
   },
   {
     "name": "Mohawk Mountain",
     "ticket_cost": 81,
     "latitude": 41.8381327,
     "longitude": -73.3144724,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.5
   },
   {
     "name": "Black River Basin (Snowriver Mountain Resort)",
-    "ticket_cost": 119, 
-    "latitude": 46.50497513939192, 
+    "ticket_cost": 119,
+    "latitude": 46.50497513939192,
     "longitude": -89.99756217500475,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Big Bear at Masthope Mountain",
     "ticket_cost": 78,
     "latitude": 41.52344869378473,
-    "longitude":  -75.02473204390309,
-    "region": "Midatlantic"
+    "longitude": -75.02473204390309,
+    "region": "Midatlantic",
+    "popularity": 1.3
   },
   {
     "name": "Porcupine Mountain",
     "ticket_cost": 45,
-    "latitude": 46.81792503259911, 
-    "longitude":-89.65008660197213,
-    "region": "Midwest"
+    "latitude": 46.81792503259911,
+    "longitude": -89.65008660197213,
+    "region": "Midwest",
+    "popularity": 1.7
   },
   {
     "name": "Alpine Valley Resort – Elkhorn",
     "ticket_cost": 78,
     "latitude": 41.28639,
     "longitude": -96.23447,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.5
   },
   {
     "name": "Snow Ridge",
     "ticket_cost": 65,
     "latitude": 43.6394937,
     "longitude": -75.421023,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.4
   },
   {
     "name": "Afton Alps",
     "ticket_cost": 89,
     "latitude": 44.8531879,
     "longitude": -92.7848027,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 2.0
   },
   {
     "name": "Hesperus Ski Area (temporarily closed)",
-    "ticket_cost": 48, 
-    "latitude": 37.29927822181284, 
-    "longitude":  -108.05518254858445,
-    "region": "Rockies"
+    "ticket_cost": 48,
+    "latitude": 37.29927822181284,
+    "longitude": -108.05518254858445,
+    "region": "Rockies",
+    "popularity": null
   },
   {
     "name": "Spring Mountain",
     "ticket_cost": 58,
-    "latitude": 40.27259687778778, 
+    "latitude": 40.27259687778778,
     "longitude": -75.44845164892833,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.0
   },
   {
     "name": "Mt. La Crosse",
     "ticket_cost": 75,
     "latitude": 43.7447361,
     "longitude": -91.1871686,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.1
   },
   {
     "name": "Mt. Lemmon Ski Valley",
     "ticket_cost": 69,
     "latitude": 32.4473497,
     "longitude": -110.7815018,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.2
   },
   {
     "name": "Norway Mountain",
     "ticket_cost": 69,
     "latitude": 45.7913534,
     "longitude": -87.8679665,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.3
   },
   {
     "name": "Sitzmark (temporarily closed)",
     "ticket_cost": 50,
     "latitude": 48.86404155651991,
-    "longitude":  -119.16520520737204,
-    "region": "West"
+    "longitude": -119.16520520737204,
+    "region": "West",
+    "popularity": null
   },
   {
     "name": "Roundtop",
     "ticket_cost": 117,
     "latitude": 40.10837,
     "longitude": -76.928669,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.6
   },
   {
     "name": "Welch Village",
     "ticket_cost": 82,
     "latitude": 44.5519083,
     "longitude": -92.7292683,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.8
   },
   {
     "name": "Las Vegas Ski and Snowboard Resort – Lee Canyon",
     "ticket_cost": 84,
     "latitude": 35.03474,
     "longitude": -112.03489,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.6
   },
   {
     "name": "Cataloochee",
     "ticket_cost": 86,
     "latitude": 35.6401005,
     "longitude": -83.0801441,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.5
   },
   {
     "name": "Laurel Mountain",
     "ticket_cost": 66,
     "latitude": 40.1667561,
     "longitude": -79.1685237,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.5
   },
   {
     "name": "Ober Gatlinburg",
     "ticket_cost": 99,
     "latitude": 35.7031855,
     "longitude": -83.5587502,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "McCauley Mountain",
     "ticket_cost": 40,
     "latitude": 40.9700862,
     "longitude": -76.2868829,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.4
   },
   {
     "name": "Ski Brule",
     "ticket_cost": 74,
     "latitude": 46.0284509,
     "longitude": -88.7055528,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.5
   },
   {
     "name": "Camden Snow Bowl",
     "ticket_cost": 52,
     "latitude": 44.2133765,
     "longitude": -69.1410149,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.1
   },
   {
     "name": "Cuchara Mountain Park",
     "ticket_cost": 50,
     "latitude": 37.35066673509215,
-    "longitude":  -105.12821489507313,
-    "region": "Rockies"
+    "longitude": -105.12821489507313,
+    "region": "Rockies",
+    "popularity": 2.3
   },
   {
-    "name": "Hatley Pointe", 
+    "name": "Hatley Pointe",
     "ticket_cost": 88,
-    "latitude": 35.9547387, 
+    "latitude": 35.9547387,
     "longitude": -82.5088569,
-    "region": "Midatlantic" 
+    "region": "Midatlantic",
+    "popularity": 0.7
   },
   {
     "name": "Mad River Mountain",
     "ticket_cost": 59,
     "latitude": 40.3164381,
     "longitude": -83.6751036,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.6
   },
   {
     "name": "Granite Gorge (temporarily closed)",
     "ticket_cost": 60,
-    "latitude": 42.971127126264946, 
-    "longitude": -72.21201181756436, 
-    "region": "Northeast"
+    "latitude": 42.971127126264946,
+    "longitude": -72.21201181756436,
+    "region": "Northeast",
+    "popularity": null
   },
   {
     "name": "Crystal Mountain (MI)",
     "ticket_cost": 115,
     "latitude": 44.5216107,
     "longitude": -86.0030778,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Mont Ripley",
     "ticket_cost": 60,
     "latitude": 47.1277064,
     "longitude": -88.5599236,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.5
   },
   {
     "name": "Moose Mountain",
-    "ticket_cost": 55, 
+    "ticket_cost": 55,
     "latitude": 64.9445846,
     "longitude": -147.9762088,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.7
   },
   {
     "name": "Bryce Resort",
     "ticket_cost": 80,
     "latitude": 38.8135688,
     "longitude": -78.7660083,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.1
   },
   {
     "name": "Snow Trails",
     "ticket_cost": 65,
     "latitude": 40.6710623,
     "longitude": -82.5026745,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.4
   },
   {
     "name": "Powder Ridge Mountain Park & Resort",
     "ticket_cost": 59,
-    "latitude": 41.50174139384035, 
+    "latitude": 41.50174139384035,
     "longitude": -72.73645430416144,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.1
   },
   {
     "name": "Big Boulder",
     "ticket_cost": 105,
     "latitude": 41.0490822,
     "longitude": -75.6022198,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.3
   },
   {
     "name": "Mt. Eyak",
     "ticket_cost": 75,
     "latitude": 60.5636185,
     "longitude": -145.7092505,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.1
   },
   {
     "name": "Mt. Southington",
     "ticket_cost": 68,
     "latitude": 41.5820193,
     "longitude": -72.9251914,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.3
   },
   {
     "name": "Mt. Brighton",
     "ticket_cost": 117,
     "latitude": 40.59943095169097,
     "longitude": -83.8091983,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.5
   },
   {
     "name": "Hunt Hollow Ski Club",
     "ticket_cost": 70,
-    "latitude": 42.6441124, 
+    "latitude": 42.6441124,
     "longitude": -77.4813584,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.9
   },
   {
     "name": "Chestnut Mountain",
     "ticket_cost": 70,
     "latitude": 42.3173239,
     "longitude": -90.3979135,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.6
   },
   {
     "name": "Mount Pleasant",
     "ticket_cost": 40,
-    "latitude": 41.852232235296995, 
-    "longitude":-80.06880102044138,
-    "region": "Midatlantic"
+    "latitude": 41.852232235296995,
+    "longitude": -80.06880102044138,
+    "region": "Midatlantic",
+    "popularity": 1.1
   },
   {
     "name": "King Pine – Purity Spring Resort",
     "ticket_cost": 82,
     "latitude": 43.8682414,
     "longitude": -71.0893811,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.2
   },
   {
     "name": "Nashoba Valley",
     "ticket_cost": 99,
     "latitude": 42.5436878,
     "longitude": -71.448264,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.3
   },
   {
     "name": "Fort Wainwright/​Birch Hill – Fairbanks",
     "ticket_cost": 30,
     "latitude": 64.83778,
     "longitude": -147.71639,
-    "region": "West"
+    "region": "West",
+    "popularity": null
   },
   {
     "name": "Hidden Valley (MO)",
     "ticket_cost": 52,
     "latitude": 38.4291009,
     "longitude": -92.2162293,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Pine Knob",
     "ticket_cost": 69,
-    "latitude": 42.7446857, 
+    "latitude": 42.7446857,
     "longitude": -83.3679171,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.3
   },
   {
     "name": "Nordic Mountain",
     "ticket_cost": 75,
-    "latitude": 44.121588502600304, 
-    "longitude":-89.18128150399673,
-    "region": "Midwest"
+    "latitude": 44.121588502600304,
+    "longitude": -89.18128150399673,
+    "region": "Midwest",
+    "popularity": 1.8
   },
   {
     "name": "Holiday Mountain (NY)",
     "ticket_cost": 75,
-    "latitude": 41.63030971372228, 
+    "latitude": 41.63030971372228,
     "longitude": -74.61298201181579,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": null
   },
   {
     "name": "Quechee Lakes Ski Area",
     "ticket_cost": 57,
     "latitude": 43.65666090642967,
-    "longitude":  -72.44263330220664,
-    "region": "Northeast"
+    "longitude": -72.44263330220664,
+    "region": "Northeast",
+    "popularity": 1.5
   },
   {
     "name": "Appalachian Ski Mountain",
     "ticket_cost": 79,
-    "latitude": 36.17471406876782, 
+    "latitude": 36.17471406876782,
     "longitude": -81.6623721,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.0
   },
   {
     "name": "Perfect North Slopes",
     "ticket_cost": 72,
     "latitude": 39.1472341,
     "longitude": -84.8877354,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.8
   },
   {
     "name": "The Homestead Resort",
     "ticket_cost": 99,
     "latitude": 37.997252262447006,
-    "longitude":  -79.82452939583997,
-    "region": "Midatlantic"
+    "longitude": -79.82452939583997,
+    "region": "Midatlantic",
+    "popularity": 0.9
   },
   {
     "name": "Shanty Creek Resorts – Summit Mountain",
     "ticket_cost": 96,
     "latitude": 44.9471269,
     "longitude": -85.1873351,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.1
   },
   {
     "name": "Seven Oaks",
     "ticket_cost": 48,
-    "latitude": 42.74925970796868, 
+    "latitude": 42.74925970796868,
     "longitude": -91.80315666185722,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.0
   },
   {
     "name": "Snowstar",
     "ticket_cost": 54,
     "latitude": 41.42542017774525,
-    "longitude":  -90.74621781950714,
-    "region": "Midwest"
+    "longitude": -90.74621781950714,
+    "region": "Midwest",
+    "popularity": 1.0
   },
   {
     "name": "Cockaigne (temporarily closed)",
     "ticket_cost": 56,
-    "latitude": 42.26418340875282, 
+    "latitude": 42.26418340875282,
     "longitude": -79.16224406363159,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": null
   },
   {
     "name": "Hilltop – Anchorage",
     "ticket_cost": 39,
     "latitude": 61.1410479,
     "longitude": -149.7386481,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.0
   },
   {
     "name": "Treetops",
     "ticket_cost": 40,
     "latitude": 39.474476,
     "longitude": -76.6690305,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.9
   },
   {
     "name": "Tyrol Basin – Mt Horeb",
     "ticket_cost": 60,
     "latitude": 43.0460807,
     "longitude": -89.7850082,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.9
   },
   {
     "name": "Thunder Ridge",
     "ticket_cost": 79,
     "latitude": 41.3371967,
     "longitude": -72.7461296,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.1
   },
   {
     "name": "Andes Tower Hills",
     "ticket_cost": 60,
     "latitude": 45.8505374,
     "longitude": -95.6302951,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.4
   },
   {
     "name": "Mt. Ashwabay – Salmo",
     "ticket_cost": 35,
     "latitude": 46.777379535953855,
-    "longitude":  -90.89620637683313,
-    "region": "Midwest"
+    "longitude": -90.89620637683313,
+    "region": "Midwest",
+    "popularity": 0.8
   },
   {
     "name": "Mt. Jefferson",
     "ticket_cost": 45,
-    "latitude": 46.73323753623917, 
-    "longitude":-68.04493513825997,
-    "region": "Northeast"
+    "latitude": 46.73323753623917,
+    "longitude": -68.04493513825997,
+    "region": "Northeast",
+    "popularity": 0.9
   },
   {
     "name": "Mt. Holiday",
     "ticket_cost": 40,
     "latitude": 44.7418944,
     "longitude": -85.5156419,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.9
   },
   {
     "name": "Powder Ridge",
     "ticket_cost": 55,
-    "latitude": 41.501757464252194, 
-    "longitude":-72.73573547219975,
-    "region": "Northeast"
+    "latitude": 41.501757464252194,
+    "longitude": -72.73573547219975,
+    "region": "Northeast",
+    "popularity": 0.9
   },
   {
     "name": "Wild Mountain",
     "ticket_cost": 59,
-    "latitude": 45.48905447072905, 
+    "latitude": 45.48905447072905,
     "longitude": -92.70520964439032,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.9
   },
   {
     "name": "Sky Tavern",
     "ticket_cost": 53,
-    "latitude": 39.33706863393297, 
-    "longitude": -119.87246836011506, 
-    "region": "West"
+    "latitude": 39.33706863393297,
+    "longitude": -119.87246836011506,
+    "region": "West",
+    "popularity": 1.2
   },
   {
     "name": "Bradford",
     "ticket_cost": 69,
-    "latitude": 42.7448769737999, 
+    "latitude": 42.7448769737999,
     "longitude": -71.05580447524909,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.5
   },
   {
     "name": "Woods Valley",
     "ticket_cost": 65,
-    "latitude": 43.30218003274111, 
-    "longitude":-75.38266602221914,
-    "region": "Northeast"
+    "latitude": 43.30218003274111,
+    "longitude": -75.38266602221914,
+    "region": "Northeast",
+    "popularity": 1.1
   },
   {
     "name": "Stagecoach Mountain (temporarily closed)",
     "ticket_cost": 59,
-    "latitude": 42.0346090183096, 
+    "latitude": 42.0346090183096,
     "longitude": -118.87054941478888,
-    "region": "West"
+    "region": "West",
+    "popularity": null
   },
   {
     "name": "Steeplechase",
     "ticket_cost": 45,
-    "latitude": 44.24382352016926,  
+    "latitude": 44.24382352016926,
     "longitude": -92.51447516165933,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.9
   },
   {
     "name": "Mystic Mountain – Farmington",
     "ticket_cost": 50,
-    "latitude": 39.81363441246286, 
+    "latitude": 39.81363441246286,
     "longitude": -79.54603285270413,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.7
   },
   {
     "name": "Mt. Zion Hill",
     "ticket_cost": 45,
     "latitude": 37.3029722,
     "longitude": -84.1036971,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.9
   },
   {
     "name": "Sundown Mountain Resort",
     "ticket_cost": 87,
     "latitude": 42.516473,
     "longitude": -90.8225677,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.1
   },
   {
     "name": "Trollhaugen",
     "ticket_cost": 67,
-    "latitude":45.35158533219775, 
+    "latitude": 45.35158533219775,
     "longitude": -92.61812913899703,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.2
   },
   {
     "name": "Snow Creek",
     "ticket_cost": 88,
-    "latitude": 39.46736274926865, 
+    "latitude": 39.46736274926865,
     "longitude": -94.9707094177779,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.8
   },
   {
     "name": "Skeetawk – Hatcher Pass",
     "ticket_cost": 44,
     "latitude": 61.743237582427554,
     "longitude": -149.23386683153637,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.2
   },
   {
     "name": "McIntyre",
     "ticket_cost": 57,
-    "latitude": 43.00676351744415, 
-    "longitude":-71.44032277028872,
-    "region": "Northeast"
+    "latitude": 43.00676351744415,
+    "longitude": -71.44032277028872,
+    "region": "Northeast",
+    "popularity": 0.6
   },
   {
     "name": "Great Bear Ski Valley",
     "ticket_cost": 35,
     "latitude": 43.578321657601016,
-    "longitude":  -96.66307081398726,
-    "region": "Rockies"
+    "longitude": -96.66307081398726,
+    "region": "Rockies",
+    "popularity": 0.7
   },
   {
     "name": "Lost Valley",
     "ticket_cost": 66,
     "latitude": 35.8649611,
     "longitude": -78.7322875,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.8
   },
   {
     "name": "Elko Snobowl",
     "ticket_cost": 20,
     "latitude": 40.9095096,
     "longitude": -115.8571125,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 0.8
   },
   {
     "name": "Howelsen Hill – Steamboat Springs",
     "ticket_cost": 49,
     "latitude": 40.4805325,
     "longitude": -106.8406049,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.3
   },
   {
     "name": "Huff Hills (temporarily closed)",
     "ticket_cost": 39,
-    "latitude": 46.627483943303915, 
-    "longitude":-100.7218138870367,
-    "region": "Rockies"
+    "latitude": 46.627483943303915,
+    "longitude": -100.7218138870367,
+    "region": "Rockies",
+    "popularity": null
   },
   {
     "name": "Victor Constant – West Point",
     "ticket_cost": 38,
     "latitude": 41.39148,
     "longitude": -73.95597,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.8
   },
   {
     "name": "Eagle Rock",
     "ticket_cost": 44,
     "latitude": 40.927273,
     "longitude": -76.1069745,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.5
   },
   {
     "name": "Alpine Valley Ohio",
     "ticket_cost": 59,
     "latitude": 40.3144192,
     "longitude": -83.6806534,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.6
   },
   {
     "name": "Little Switzerland",
     "ticket_cost": 60,
     "latitude": 35.8492885,
     "longitude": -82.0903939,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.8
   },
   {
     "name": "Brandywine",
-    "ticket_cost": 88, 
+    "ticket_cost": 88,
     "latitude": 41.2846784,
     "longitude": -81.5553246,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.1
   },
   {
     "name": "Timber Ridge",
     "ticket_cost": 62,
     "latitude": 42.391664023923795,
-    "longitude":  -85.78090658876539,
-    "region": "Midwest"
+    "longitude": -85.78090658876539,
+    "region": "Midwest",
+    "popularity": 1.5
   },
   {
     "name": "Mount Peter",
     "ticket_cost": 79,
     "latitude": 41.247961129914444,
-    "longitude":  -74.2952517003374,
-    "region": "Northeast"
+    "longitude": -74.2952517003374,
+    "region": "Northeast",
+    "popularity": 1.1
   },
   {
     "name": "Buena Vista",
     "ticket_cost": 52,
     "latitude": 42.7445814,
     "longitude": -95.1127525,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.1
   },
   {
     "name": "Otis Ridge",
     "ticket_cost": 55,
-    "latitude":42.19652878711785, 
+    "latitude": 42.19652878711785,
     "longitude": -73.09713215350016,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.0
   },
   {
     "name": "Tussey Mountain",
     "ticket_cost": 62,
     "latitude": 40.3635463,
     "longitude": -78.2105365,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.1
   },
   {
     "name": "Coffee Mill",
     "ticket_cost": 55,
     "latitude": 44.3602201,
     "longitude": -92.0438684,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.1
   },
   {
     "name": "Detroit Mountain",
     "ticket_cost": 52,
     "latitude": 46.8161658,
     "longitude": -95.7835259,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.7
   },
   {
     "name": "The Omni Homestead",
     "ticket_cost": 64,
-    "latitude": 37.99729266712766, 
+    "latitude": 37.99729266712766,
     "longitude": -79.83006575649902,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 1.1
   },
   {
     "name": "Alta Sierra – Shirley Meadows",
     "ticket_cost": 75,
-    "latitude": 35.7110038, 
+    "latitude": 35.7110038,
     "longitude": -118.5600549,
-    "region": "West"
+    "region": "West",
+    "popularity": 0.9
   },
   {
     "name": "Yawgoo Valley",
     "ticket_cost": 40,
     "latitude": 41.5174624,
     "longitude": -71.5273283,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.9
   },
   {
     "name": "Willard Mountain – Greenwich",
     "ticket_cost": 62,
     "latitude": 43.0209561,
     "longitude": -73.516903,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.2
   },
   {
     "name": "Mont du Lac",
     "ticket_cost": 54,
-    "latitude": 46.651770627992406, 
+    "latitude": 46.651770627992406,
     "longitude": -92.2843568615006,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.6
   },
   {
     "name": "Sunburst",
     "ticket_cost": 70,
-    "latitude": 43.494061, 
+    "latitude": 43.494061,
     "longitude": -88.223986,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.0
   },
   {
     "name": "Boston Mills",
-    "ticket_cost": 88, 
+    "ticket_cost": 88,
     "latitude": 41.2636921,
     "longitude": -81.5643259,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.9
   },
   {
     "name": "Bruce Mound",
     "ticket_cost": 27,
     "latitude": 44.4438509,
     "longitude": -90.7923656,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.1
   },
   {
     "name": "Blue Hills",
     "ticket_cost": 75,
     "latitude": 43.5508992,
     "longitude": -74.1709694,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.9
   },
   {
     "name": "Cannonsburg",
     "ticket_cost": 55,
     "latitude": 38.3886931,
     "longitude": -82.702662,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.8
   },
   {
     "name": "Eaton Mountain (temporarily closed)",
     "ticket_cost": 15,
     "latitude": 44.55117,
     "longitude": -70.00006,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": null
   },
   {
     "name": "Chester Bowl",
     "ticket_cost": 15,
     "latitude": 46.8126979,
     "longitude": -92.0955111,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.9
   },
   {
     "name": "Dry Hill",
     "ticket_cost": 50,
     "latitude": 43.9316351571594,
     "longitude": -75.89962202800592,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.5
   },
   {
     "name": "Kendall Mountain – Silverton",
     "ticket_cost": 26,
     "latitude": 37.8114532,
     "longitude": -107.6554638,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.1
   },
   {
     "name": "Frost Fire Park",
     "ticket_cost": 68,
     "latitude": 48.91218393796868,
     "longitude": -98.0667814,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 0.2
   },
   {
     "name": "Buck Hill",
     "ticket_cost": 59,
     "latitude": 44.7233167,
     "longitude": -93.2855624,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.6
   },
   {
     "name": "Echo Mountain Park – Idaho Springs",
     "ticket_cost": 79,
     "latitude": 39.74249,
     "longitude": -105.51361,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.3
   },
   {
     "name": "Christmas Mountain",
     "ticket_cost": 80,
-    "latitude": 43.6092236578887, 
-    "longitude":-89.86006554013,
-    "region": "Midwest"
+    "latitude": 43.6092236578887,
+    "longitude": -89.86006554013,
+    "region": "Midwest",
+    "popularity": 1.0
   },
   {
     "name": "Campgaw Mountain",
     "ticket_cost": 65,
     "latitude": 41.0542633,
     "longitude": -74.1991927,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.9
   },
   {
     "name": "Hyland Hills",
     "ticket_cost": 44,
-    "latitude": 44.843774505959956, 
+    "latitude": 44.843774505959956,
     "longitude": -93.36361100394994,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.7
   },
   {
     "name": "Hermon Mountain",
     "ticket_cost": 55,
     "latitude": 44.7796111,
     "longitude": -68.9601504,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.3
   },
   {
     "name": "Maple Ski Ridge",
     "ticket_cost": 43,
     "latitude": 42.8157643,
     "longitude": -74.0340035,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.8
   },
   {
     "name": "Villa Roma",
     "ticket_cost": 35,
     "latitude": 41.76307685746825,
-    "longitude":  -74.97285055997104,
-    "region": "Northeast"
+    "longitude": -74.97285055997104,
+    "region": "Northeast",
+    "popularity": 0.5
   },
   {
     "name": "Heiliger Huegel – Hubertus",
     "ticket_cost": 70,
     "latitude": 43.25232805688397,
-    "longitude":  -88.31117721939329,
-    "region": "Midwest"
+    "longitude": -88.31117721939329,
+    "region": "Midwest",
+    "popularity": 0.5
   },
   {
     "name": "Swiss Valley",
     "ticket_cost": 53,
     "latitude": 41.95487202937956,
-    "longitude":  -85.82738204237292,
-    "region": "Midwest"
+    "longitude": -85.82738204237292,
+    "region": "Midwest",
+    "popularity": 0.5
   },
   {
     "name": "Camp 10",
     "ticket_cost": 20,
-    "latitude": 45.549325550323076, 
+    "latitude": 45.549325550323076,
     "longitude": -89.50303688499264,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.0
   },
   {
     "name": "Mount Ski Gull",
     "ticket_cost": 45,
     "latitude": 46.4448501,
     "longitude": -94.378519,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.5
   },
   {
     "name": "Beartooth Basin",
     "ticket_cost": 50,
     "latitude": 44.9773103,
-    "longitude": -109.4357211, 
-    "region": "Rockies"
+    "longitude": -109.4357211,
+    "region": "Rockies",
+    "popularity": 1.3
   },
   {
     "name": "Sunrise Park",
     "ticket_cost": 99,
     "latitude": 36.3050725,
     "longitude": -119.2701388,
-    "region": "West"
+    "region": "West",
+    "popularity": 2.2
   },
   {
     "name": "Denton Hill State Park (temporarily closed)",
     "ticket_cost": 43,
     "latitude": 41.76757,
     "longitude": -77.83,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": null
   },
   {
     "name": "Titcomb Mountain",
     "ticket_cost": 45,
     "latitude": 44.6484143,
     "longitude": -70.1716605,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.6
   },
   {
     "name": "Sapphire Valley",
-    "ticket_cost": 68, 
+    "ticket_cost": 68,
     "latitude": 35.1223657,
     "longitude": -83.0594472,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.4
   },
   {
     "name": "Toggenburg Ski Center (temporarily closed)",
     "ticket_cost": 55,
-    "latitude": 42.82642144545162, 
+    "latitude": 42.82642144545162,
     "longitude": -75.9599774599029,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": null
   },
   {
     "name": "Blizzard Mountain",
     "ticket_cost": 15,
-    "latitude": 43.5007366, 
+    "latitude": 43.5007366,
     "longitude": -113.6811332,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 1.1
   },
   {
     "name": "Bottineau Winter Park",
     "ticket_cost": 45,
     "latitude": 48.9503336,
     "longitude": -100.4728867,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 0.4
   },
   {
     "name": "Hillberg",
     "ticket_cost": 28,
-    "latitude": 61.47184489537997, 
+    "latitude": 61.47184489537997,
     "longitude": -149.92268223198457,
-    "region": "West"
+    "region": "West",
+    "popularity": 0.7
   },
   {
     "name": "Cottonwood Butte",
     "ticket_cost": 20,
     "latitude": 46.0687691,
     "longitude": -116.4654234,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 0.8
   },
   {
     "name": "Lonesome Pine Trails – Fort Kent",
-    "ticket_cost": 30, 
+    "ticket_cost": 30,
     "latitude": 47.2397986,
     "longitude": -68.5945123,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.6
   },
   {
     "name": "Ausblick – Sussex",
     "ticket_cost": 30,
     "latitude": 43.1339,
     "longitude": -88.22204,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.5
   },
   {
     "name": "Boyce Park",
     "ticket_cost": 25,
-    "latitude": 40.4646364, 
+    "latitude": 40.4646364,
     "longitude": -79.7457547,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.4
   },
   {
     "name": "Crystal Ridge",
     "ticket_cost": 70,
     "latitude": 33.4946517,
     "longitude": -117.1585746,
-    "region": "West"
+    "region": "West",
+    "popularity": 0.7
   },
   {
     "name": "Villa Olivia – Bartlett",
     "ticket_cost": 45,
     "latitude": 42.0125699,
     "longitude": -88.2208353,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 1.0
   },
   {
     "name": "Plumas Eureka Ski Bowl",
     "ticket_cost": 30,
     "latitude": 39.7662979,
     "longitude": -120.7000056,
-    "region": "West"
+    "region": "West",
+    "popularity": 1.1
   },
   {
     "name": "Coppervale",
     "ticket_cost": 24,
     "latitude": 40.3465575,
     "longitude": -120.9049574,
-    "region": "West"
+    "region": "West",
+    "popularity": 0.9
   },
   {
     "name": "Navarino Hills (temporarily closed)",
     "ticket_cost": 15,
     "latitude": 41.55419,
     "longitude": -91.53489,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Cranor Ski Hill – Gunnison",
     "ticket_cost": 22,
     "latitude": 38.5848815,
     "longitude": -106.8960076,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 0.2
   },
   {
     "name": "Big Creek Ski Area",
     "ticket_cost": 57,
     "latitude": 41.6466364,
     "longitude": -81.1832982,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.3
   },
   {
     "name": "Cochran",
     "ticket_cost": 19,
-    "latitude": 44.39535773004907, 
+    "latitude": 44.39535773004907,
     "longitude": -72.98236233835452,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.3
   },
   {
     "name": "Winter Park – Kewaunee County",
     "ticket_cost": 20,
     "latitude": 44.48279,
     "longitude": -87.51434,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.6
   },
   {
     "name": "Mount Greylock – South Williamstown",
     "ticket_cost": 45,
     "latitude": 42.6713648,
     "longitude": -73.2426812,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.4
   },
   {
     "name": "Storrs Hill – Lebanon",
     "ticket_cost": 15,
     "latitude": 43.6206269,
     "longitude": -72.2531458,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.7
   },
   {
     "name": "Lake City Ski Hill",
     "ticket_cost": 30,
     "latitude": 38.0101747,
     "longitude": -107.3135389,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 0.5
   },
   {
     "name": "Whitetail Ridge – Fort McCoy",
     "ticket_cost": 40,
-    "latitude": 44.02205685884782, 
+    "latitude": 44.02205685884782,
     "longitude": -90.72008676757686,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.2
   },
   {
     "name": "Ascutney Mountain",
     "ticket_cost": 20,
     "latitude": 43.4250721,
     "longitude": -72.5037021,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 1.8
   },
   {
     "name": "Mt. Pisgah",
     "ticket_cost": 25,
-    "latitude": 44.34581479646872, 
+    "latitude": 44.34581479646872,
     "longitude": -74.12387310849257,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.4
   },
   {
     "name": "Little Ski Hill",
     "ticket_cost": 25,
     "latitude": 44.9281469,
     "longitude": -116.1616596,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": 0.5
   },
   {
     "name": "Elk Ridge – Williams (temporarily closed)",
     "ticket_cost": 40,
     "latitude": 35.24946,
     "longitude": -112.191,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": null
   },
   {
     "name": "Northeast Slopes – East Corinth",
     "ticket_cost": 15,
     "latitude": 44.0726572,
     "longitude": -72.2506714,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.7
   },
   {
     "name": "Badger Mountain",
     "ticket_cost": 10,
     "latitude": 47.613169051393875,
-    "longitude":  -120.13071176328224,
-    "region": "West"
+    "longitude": -120.13071176328224,
+    "region": "West",
+    "popularity": 0.6
   },
   {
     "name": "Beartown",
     "ticket_cost": 24,
     "latitude": 40.1114871,
     "longitude": -75.9774442,
-    "region": "Midatlantic"
+    "region": "Midatlantic",
+    "popularity": 0.2
   },
   {
     "name": "Veterans Memorial – Franklin",
     "ticket_cost": 15,
-    "latitude": 43.44566640220448, 
+    "latitude": 43.44566640220448,
     "longitude": -71.69102128061256,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.2
   },
   {
     "name": "Spruce Mountain – Jay",
     "ticket_cost": 30,
     "latitude": 44.5564516,
     "longitude": -70.2000603,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.4
   },
   {
     "name": "Living Memorial Park – Brattleboro",
     "ticket_cost": 5,
     "latitude": 42.8444468,
     "longitude": -72.5866597,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.1
   },
   {
     "name": "Abenaki",
     "ticket_cost": 30,
     "latitude": 44.0590876,
     "longitude": -71.1290104,
-    "region": "Northeast"
+    "region": "Northeast",
+    "popularity": 0.1
   },
   {
     "name": "Brantling",
     "ticket_cost": 34,
     "latitude": 43.1475643,
-    "longitude": -77.0688618, 
-    "region": "Midatlantic"
+    "longitude": -77.0688618,
+    "region": "Midatlantic",
+    "popularity": 0.5
   },
   {
     "name": "Chapman Hill – Durango",
     "ticket_cost": 16,
     "latitude": 37.364499449691344,
-    "longitude":  -107.9114642418378,
-    "region": "Rockies"
+    "longitude": -107.9114642418378,
+    "region": "Rockies",
+    "popularity": 0.5
   },
   {
     "name": "Mulligan's Hollow Ski Bowl",
     "ticket_cost": 22,
-    "latitude": 43.057799441470166, 
+    "latitude": 43.057799441470166,
     "longitude": -86.2392235770761,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.5
   },
   {
     "name": "Meany Lodge",
     "ticket_cost": 55,
     "latitude": 47.2803341,
     "longitude": -121.3202929,
-    "region": "West"
+    "region": "West",
+    "popularity": 0.8
   },
   {
     "name": "Ski Maxx – Colorado Springs (dry slopes)",
     "ticket_cost": 22,
     "latitude": 38.83388,
     "longitude": -104.82136,
-    "region": "Rockies"
+    "region": "Rockies",
+    "popularity": null
   },
   {
     "name": "Kettlebowl",
     "ticket_cost": 10,
     "latitude": 45.2711685,
     "longitude": -88.9019293,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.5
   },
   {
     "name": "Challenge Mountain – Walloon Lake",
     "ticket_cost": 30,
     "latitude": 45.26612,
     "longitude": -84.93366,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.3
   },
   {
     "name": "Powers Bluff",
     "ticket_cost": 13,
     "latitude": 44.5333005,
     "longitude": -90.0727474,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": 0.0
   },
   {
     "name": "Leavenworth Ski Hill",
     "ticket_cost": 26,
     "latitude": 47.6141826,
     "longitude": -120.6696057,
-    "region": "West"
+    "region": "West",
+    "popularity": 0.3
   },
   {
     "name": "Ruby Mountain",
     "ticket_cost": 23,
-    "latitude": 40.7181396762498, 
-    "longitude":-115.41659554580436,
-    "region": "West"
+    "latitude": 40.7181396762498,
+    "longitude": -115.41659554580436,
+    "region": "West",
+    "popularity": null
   },
   {
     "name": "Hiawatha – Rock River Township",
     "ticket_cost": 5,
     "latitude": 46.3334206,
     "longitude": -86.7416667,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Adventure Mountain – Greenland",
     "ticket_cost": 5,
     "latitude": 46.7711111,
     "longitude": -89.0833333,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Keyes Peak",
     "ticket_cost": 15,
-    "latitude": 45.89605141197835, 
+    "latitude": 45.89605141197835,
     "longitude": -88.2993590750454,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   },
   {
     "name": "Standing Rocks",
     "ticket_cost": 16,
-    "latitude": 44.43197150378706, 
+    "latitude": 44.43197150378706,
     "longitude": -89.40030149529186,
-    "region": "Midwest"
+    "region": "Midwest",
+    "popularity": null
   }
 ]

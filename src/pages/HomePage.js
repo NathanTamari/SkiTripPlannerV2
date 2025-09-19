@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import dayjs from "dayjs";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import './HomePage.css';
@@ -14,9 +15,16 @@ function HomePage() {
     const [data, setData] = useState(null);
     const [formValues, setFormValues] = useState({});
 
-    const handleFormChange  = (title , value) => {
-        setFormValues( prev => ({ ...prev, [title]: value}));
-    };
+const handleFormChange = (title, value) => {
+    setFormValues(prev => {
+        if (title === "Start Date") {
+            return { ...prev, [title]: value, "End Date": value };
+        } else {
+            return { ...prev, [title]: value };
+        }
+    });
+};
+
 
     useEffect(() => {
         initParticlesEngine(async (engine) => {
@@ -79,22 +87,39 @@ function HomePage() {
         []
     );
 
-    const handleSubmit = async (e) =>  {
+        const handleSubmit = async (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
-        const formObject = { ...Object.fromEntries(formData.entries()), ...formValues };
+        const rawData = { ...Object.fromEntries(formData.entries()), ...formValues };
 
-            // Simulate API call
-            const response = await new Promise((resolve) =>
-                setTimeout(() => resolve({ success: true, data: formObject }), 1500)
-            );
+        // Convert Dayjs to string for submission
+        const formObject = {
+            ...rawData,
+            "Start Date": rawData["Start Date"]?.format("YYYY-MM-DD") || "",
+            "End Date": rawData["End Date"]?.format("YYYY-MM-DD") || "",
+        };
 
-            if (response.success) {
-                setData(response.data);  // Store the data for NewPage
-            } else {
-                throw new Error("Failed to fetch data");
-            }
+        const response = await new Promise((resolve) =>
+            setTimeout(() => resolve({ success: true, data: formObject }), 1500)
+        );
+
+        if (response.success) {
+            setData(response.data);
+        } else {
+            throw new Error("Failed to fetch data");
+        }
     };
+
+
+    const startDate = formValues["Start Date"] || "";
+    const endDate = formValues["End Date"] || "";
+
+    const datesAreValid = () => {
+        if (!startDate && !endDate) return true;
+        if (!startDate || !endDate) return false;
+        return !dayjs(startDate).isAfter(dayjs(endDate));
+    };
+
 
     return (
         <div className='outer'>
@@ -128,11 +153,31 @@ function HomePage() {
                         <CheckBox name={"Epic Pass"} onChange={handleFormChange}/>
                         <CheckBox name={"Ikon Pass"} onChange={handleFormChange}/>
                     </div>
+                    <div className="date-row-wrapper">
                     <div className="row-container">
-                        <DateSelector name="Start Date" onChange={handleFormChange}/>
-                        <DateSelector name="End Date" onChange={handleFormChange}/>
+                        <DateSelector
+                            name="Start Date"
+                            value={formValues["Start Date"]}
+                            onChange={handleFormChange}
+                        />
+                        <DateSelector
+                            name="End Date"
+                            value={formValues["End Date"]}
+                            onChange={handleFormChange}
+                        />
                     </div>
-                    <button type="submit">Find Best Trip...</button>
+
+                    {!datesAreValid() && (
+                        <p className="error-text">
+                        {(!startDate || !endDate)
+                            ? "Please fill out both start and end dates."
+                            : "Start date must be before end date."}
+                        </p>
+                    )}
+                    </div>
+                    <button type="submit" disabled={!datesAreValid()}>
+                        Find Best Trip...
+                    </button>
                 </form>
             </div>
          ) } 

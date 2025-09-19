@@ -67,3 +67,20 @@
     align-items: center;
     gap: 20px;                      
 }
+
+.date-row-wrapper {
+    position: relative; /* allows the error text to be positioned relative to this container */
+    margin-bottom: 3rem; /* reserve space below for the error */
+}
+
+.date-row-wrapper .error-text {
+    position: absolute;
+    bottom: -2rem; /* previously -1.25rem, increase for more space */
+    left: 0;
+    color: #f87171; /* red color */
+    font-size: 0.875rem; /* 14px */
+    font-weight: bolder;
+}
+
+
+
