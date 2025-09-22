@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
+    "aos": "^2.3.4",
     "axios": "^1.12.1",
     "dayjs": "^1.11.13",
     "fs": "^0.0.1-security",

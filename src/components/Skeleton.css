@@ -1,0 +1,68 @@
+/* Match the size & roundness of your real card */
+.skeleton-card {
+  position: relative;
+  padding: 18px 16px 56px;
+  border-radius: 16px;
+  min-height: 220px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 14px rgba(5,12,18,0.20);
+}
+
+/* Shimmer effect */
+.skeleton-shine {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.12) 0%,
+    rgba(255,255,255,0.22) 40%,
+    rgba(255,255,255,0.12) 80%
+  );
+  background-size: 240% 100%;
+  animation: sk-shimmer 1.2s ease-in-out infinite;
+}
+
+@keyframes sk-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -40% 0; }
+}
+
+/* Layout pieces to mirror the real card */
+.sk-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sk-badge {
+  width: 36px; height: 36px; border-radius: 10px;
+}
+
+.sk-title {
+  height: 18px; width: 55%; border-radius: 6px;
+}
+
+.sk-chips {
+  display: flex; gap: 8px; margin: 12px 0 6px;
+}
+.sk-chip {
+  height: 28px; width: 86px; border-radius: 999px;
+}
+
+.sk-stars {
+  height: 16px; width: 120px; border-radius: 8px; margin: 8px 0 10px;
+}
+
+.sk-price {
+  position: absolute; right: 12px; bottom: 12px;
+  height: 40px; width: 180px; border-radius: 12px;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-shine { animation: none; }
+}

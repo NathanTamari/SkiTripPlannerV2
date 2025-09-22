@@ -562,9 +562,9 @@
   {
     "name": "Timberline",
     "ticket_cost": 149,
-    "latitude": 39.04272795574944,
-    "longitude": -79.3989119871208,
-    "region": "Midatlantic",
+    "latitude": 45.330720776656676, 
+    "longitude": -121.71020174031132,
+    "region": "West",
     "popularity": 5.2
   },
   {
@@ -1058,10 +1058,10 @@
   {
     "name": "Boreal",
     "ticket_cost": 69,
-    "latitude": 46.52247739305712,
-    "longitude": -67.82896756150934,
-    "region": "Northeast",
-    "popularity": 1.2
+    "latitude": 39.3400001400788,
+    "longitude": -120.35153193039801,
+    "region": "West",
+    "popularity": 3.4
   },
   {
     "name": "Mountain High",
@@ -2370,9 +2370,9 @@
   {
     "name": "Treetops",
     "ticket_cost": 40,
-    "latitude": 39.474476,
-    "longitude": -76.6690305,
-    "region": "Midatlantic",
+    "latitude": 45.03321124784248,
+    "longitude": -84.58914885701193,
+    "region": "Midwest",
     "popularity": 0.9
   },
   {

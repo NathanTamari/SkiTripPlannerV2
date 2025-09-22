@@ -20,9 +20,6 @@ const SortByDropdown = ({
       className="sort-by flex items-center space-x-2 p-2 rounded-xl shadow-lg bg-gradient-to-b from-yellow-50 to-yellow-100 border border-yellow-300"
       onSubmit={(e) => e.preventDefault()}
     >
-      <label htmlFor="sort" className="font-semibold text-gray-700">
-        {label}:
-      </label>
       <select
         id="sort"
         value={selected}
@@ -38,7 +35,6 @@ const SortByDropdown = ({
           </option>
         ))}
       </select>
-      <span className="text-white text-lg animate-snowfall">❄️</span>
     </form>
   );
 };
