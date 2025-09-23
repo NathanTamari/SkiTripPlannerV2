@@ -5,7 +5,9 @@
     "latitude": 45.2839783,
     "longitude": -111.401115,
     "region": "Rockies",
-    "popularity": 6.7
+    "popularity": 6.7,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Vail",
@@ -13,7 +15,9 @@
     "latitude": 39.6383847,
     "longitude": -106.3696597,
     "region": "Rockies",
-    "popularity": 8.0
+    "popularity": 8.0,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Telluride",
@@ -21,7 +25,9 @@
     "latitude": 37.9361867,
     "longitude": -107.8451282,
     "region": "Rockies",
-    "popularity": 7.7
+    "popularity": 7.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Beaver Creek",
@@ -29,7 +35,9 @@
     "latitude": 39.6048786,
     "longitude": -106.5150017,
     "region": "Rockies",
-    "popularity": 8.1
+    "popularity": 8.1,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Mammoth Mountain",
@@ -37,7 +45,9 @@
     "latitude": 37.6481944,
     "longitude": -118.9752427,
     "region": "West",
-    "popularity": 6.9
+    "popularity": 6.9,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Park City",
@@ -45,7 +55,9 @@
     "latitude": 40.654146,
     "longitude": -111.562396,
     "region": "Rockies",
-    "popularity": 8.2
+    "popularity": 8.2,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Snowmass",
@@ -53,7 +65,9 @@
     "latitude": 39.3310391,
     "longitude": -106.9846471,
     "region": "Rockies",
-    "popularity": 7.7
+    "popularity": 7.7,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Deer Valley",
@@ -61,7 +75,9 @@
     "latitude": 40.647873387340574,
     "longitude": -111.47677493438677,
     "region": "Rockies",
-    "popularity": 8.2
+    "popularity": 8.2,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Breckenridge",
@@ -69,7 +85,9 @@
     "latitude": 39.4802643,
     "longitude": -106.0673289,
     "region": "Rockies",
-    "popularity": 8.4
+    "popularity": 8.4,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Palisades Tahoe",
@@ -77,7 +95,9 @@
     "latitude": 39.19257,
     "longitude": -120.2471429,
     "region": "West",
-    "popularity": 8.3
+    "popularity": 8.3,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Keystone",
@@ -85,7 +105,9 @@
     "latitude": 39.58186424927078,
     "longitude": -105.9436044312654,
     "region": "Rockies",
-    "popularity": 6.8
+    "popularity": 6.8,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Sunday River",
@@ -93,7 +115,9 @@
     "latitude": 44.4718486,
     "longitude": -70.8673378,
     "region": "Northeast",
-    "popularity": 5.2
+    "popularity": 5.2,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Killington",
@@ -101,7 +125,9 @@
     "latitude": 43.6516287,
     "longitude": -72.8412842,
     "region": "Northeast",
-    "popularity": 6.9
+    "popularity": 6.9,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Winter Park Resort",
@@ -109,7 +135,9 @@
     "latitude": 39.8716143,
     "longitude": -105.7827088,
     "region": "Rockies",
-    "popularity": 6.9
+    "popularity": 6.9,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Heavenly",
@@ -117,7 +145,9 @@
     "latitude": 38.9404518,
     "longitude": -119.8974215,
     "region": "West",
-    "popularity": 7.5
+    "popularity": 7.5,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Snowbird",
@@ -125,7 +155,9 @@
     "latitude": 40.584437963636475,
     "longitude": -111.65084987722867,
     "region": "Rockies",
-    "popularity": 5.4
+    "popularity": 5.4,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Snowbasin",
@@ -133,7 +165,9 @@
     "latitude": 41.2003657,
     "longitude": -111.8652518,
     "region": "Rockies",
-    "popularity": 5.5
+    "popularity": 5.5,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Steamboat",
@@ -141,7 +175,9 @@
     "latitude": 40.457489,
     "longitude": -106.7708685,
     "region": "Rockies",
-    "popularity": 6.7
+    "popularity": 6.7,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Alta",
@@ -149,7 +185,9 @@
     "latitude": 40.57782249641541,
     "longitude": -111.62403610606427,
     "region": "Rockies",
-    "popularity": 5.0
+    "popularity": 5.0,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Stowe",
@@ -157,7 +195,9 @@
     "latitude": 44.5297676,
     "longitude": -72.7936843,
     "region": "Northeast",
-    "popularity": 4.6
+    "popularity": 4.6,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Solitude",
@@ -165,7 +205,9 @@
     "latitude": 40.6231058,
     "longitude": -111.59763,
     "region": "Rockies",
-    "popularity": 4.8
+    "popularity": 4.8,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Brighton",
@@ -173,7 +215,9 @@
     "latitude": 40.5979914,
     "longitude": -111.583719,
     "region": "Rockies",
-    "popularity": 4.3
+    "popularity": 4.3,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Aspen Highlands",
@@ -181,7 +225,9 @@
     "latitude": 39.1822344,
     "longitude": -106.8555316,
     "region": "Rockies",
-    "popularity": 5.4
+    "popularity": 5.4,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Copper Mountain",
@@ -189,7 +235,9 @@
     "latitude": 39.501346939010546,
     "longitude": -106.15466465871644,
     "region": "Rockies",
-    "popularity": 5.3
+    "popularity": 5.3,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Jackson Hole",
@@ -197,7 +245,9 @@
     "latitude": 43.5880288,
     "longitude": -110.8292097,
     "region": "Rockies",
-    "popularity": 6.5
+    "popularity": 6.5,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Crested Butte",
@@ -205,7 +255,9 @@
     "latitude": 38.8970023,
     "longitude": -106.9446829,
     "region": "Rockies",
-    "popularity": 5.7
+    "popularity": 5.7,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Buttermilk Mountain",
@@ -213,7 +265,9 @@
     "latitude": 43.8678588,
     "longitude": -69.9242151,
     "region": "Northeast",
-    "popularity": 3.7
+    "popularity": 3.7,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Mt. Bachelor",
@@ -221,7 +275,9 @@
     "latitude": 43.9793848,
     "longitude": -121.6885078,
     "region": "West",
-    "popularity": 6.4
+    "popularity": 6.4,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Bald Mountain – Sun Valley",
@@ -229,7 +285,9 @@
     "latitude": 43.6636413,
     "longitude": -114.3894069,
     "region": "Rockies",
-    "popularity": 5.3
+    "popularity": 5.3,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Whiteface – Lake Placid",
@@ -237,7 +295,9 @@
     "latitude": 44.2969837,
     "longitude": -74.0105758,
     "region": "Northeast",
-    "popularity": 5.6
+    "popularity": 5.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Yellowstone Club",
@@ -245,7 +305,9 @@
     "latitude": 45.6695941,
     "longitude": -111.150857,
     "region": "Rockies",
-    "popularity": 4.9
+    "popularity": 4.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Schweitzer Mountain Resort",
@@ -253,7 +315,9 @@
     "region": "Rockies",
     "latitude": 48.37615504831891,
     "longitude": -116.61715799021822,
-    "popularity": 4.0
+    "popularity": 4.0,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Stratton",
@@ -261,7 +325,9 @@
     "latitude": 43.1026647,
     "longitude": -72.9048371,
     "region": "Northeast",
-    "popularity": 4.9
+    "popularity": 4.9,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "June Mountain",
@@ -269,7 +335,9 @@
     "latitude": 37.768027126520074,
     "longitude": -119.09090825409835,
     "region": "West",
-    "popularity": 4.5
+    "popularity": 4.5,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Arapahoe Basin",
@@ -277,7 +345,9 @@
     "latitude": 39.63424836298236,
     "longitude": -105.87125265127645,
     "region": "Rockies",
-    "popularity": 3.8
+    "popularity": 3.8,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Mt. Hood Meadows",
@@ -285,7 +355,9 @@
     "latitude": 45.3322507,
     "longitude": -121.6650352,
     "region": "West",
-    "popularity": 5.1
+    "popularity": 5.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Taos",
@@ -293,7 +365,9 @@
     "latitude": 36.1495118,
     "longitude": -105.5535966,
     "region": "Rockies",
-    "popularity": 5.3
+    "popularity": 5.3,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Aspen Mountain",
@@ -301,7 +375,9 @@
     "latitude": 39.186359873189495,
     "longitude": -106.81815838398319,
     "region": "Rockies",
-    "popularity": 4.5
+    "popularity": 4.5,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Whitefish Mountain Resort",
@@ -309,7 +385,9 @@
     "latitude": 48.49310857241637,
     "longitude": -114.3578504,
     "region": "Rockies",
-    "popularity": 5.6
+    "popularity": 5.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Angel Fire",
@@ -317,7 +395,9 @@
     "latitude": 36.3915428,
     "longitude": -105.2853972,
     "region": "Rockies",
-    "popularity": 3.8
+    "popularity": 3.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sugarloaf",
@@ -325,7 +405,9 @@
     "latitude": 45.03195897902545,
     "longitude": -70.3129514992836,
     "region": "Northeast",
-    "popularity": 4.5
+    "popularity": 4.5,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Sugarbush",
@@ -333,7 +415,9 @@
     "latitude": 44.5417138,
     "longitude": -73.9698685,
     "region": "Northeast",
-    "popularity": 4.6
+    "popularity": 4.6,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Sierra at Tahoe",
@@ -341,7 +425,9 @@
     "latitude": 38.7960972,
     "longitude": -120.0768961,
     "region": "West",
-    "popularity": 5.1
+    "popularity": 5.1,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Homewood Mountain Resort",
@@ -349,7 +435,9 @@
     "latitude": 39.0856092,
     "longitude": -120.1612656,
     "region": "West",
-    "popularity": 3.4
+    "popularity": 3.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Wolf Creek",
@@ -357,7 +445,9 @@
     "latitude": 37.4724615,
     "longitude": -106.79289332954018,
     "region": "Rockies",
-    "popularity": 3.3
+    "popularity": 3.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Purgatory – Durango",
@@ -365,7 +455,9 @@
     "latitude": 37.556879,
     "longitude": -107.7800368,
     "region": "Rockies",
-    "popularity": 3.3
+    "popularity": 3.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bolton Valley",
@@ -373,7 +465,9 @@
     "latitude": 44.422562408922225,
     "longitude": -72.85144426534126,
     "region": "Northeast",
-    "popularity": 3.0
+    "popularity": 3.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sugar Bowl",
@@ -381,7 +475,9 @@
     "latitude": 39.30175410484339,
     "longitude": -120.33485120473291,
     "region": "West",
-    "popularity": 3.2
+    "popularity": 3.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Jay Peak",
@@ -389,7 +485,9 @@
     "latitude": 44.9242294,
     "longitude": -72.5256931,
     "region": "Northeast",
-    "popularity": 4.4
+    "popularity": 4.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Okemo",
@@ -397,7 +495,9 @@
     "latitude": 43.4018363,
     "longitude": -72.7169741,
     "region": "Northeast",
-    "popularity": 4.7
+    "popularity": 4.7,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Mount Snow",
@@ -405,7 +505,9 @@
     "latitude": 42.9589685,
     "longitude": -72.9237112,
     "region": "Northeast",
-    "popularity": 4.3
+    "popularity": 4.3,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Bear Valley",
@@ -413,7 +515,9 @@
     "latitude": 38.4852646,
     "longitude": -120.0439328757465,
     "region": "West",
-    "popularity": 4.2
+    "popularity": 4.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Red Lodge Mountain",
@@ -421,7 +525,9 @@
     "latitude": 45.1898079,
     "longitude": -109.3534308,
     "region": "Rockies",
-    "popularity": 4.0
+    "popularity": 4.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Powder Mountain",
@@ -429,7 +535,9 @@
     "latitude": 41.38183496241045,
     "longitude": -111.78147872180196,
     "region": "Rockies",
-    "popularity": 3.8
+    "popularity": 3.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bretton Woods",
@@ -437,7 +545,9 @@
     "latitude": 44.2599728,
     "longitude": -71.4430242,
     "region": "Northeast",
-    "popularity": 2.8
+    "popularity": 2.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Rose",
@@ -445,7 +555,9 @@
     "latitude": 39.31527908184662,
     "longitude": -119.88246989079839,
     "region": "West",
-    "popularity": 3.3
+    "popularity": 3.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "49 Degrees North Mountain Resort",
@@ -453,7 +565,9 @@
     "region": "West",
     "latitude": 48.30127559579715,
     "longitude": -117.5629053748824,
-    "popularity": 3.1
+    "popularity": 3.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Smugglers' Notch",
@@ -461,7 +575,9 @@
     "latitude": 44.59078672463272,
     "longitude": -72.78443676163687,
     "region": "Northeast",
-    "popularity": 4.5
+    "popularity": 4.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Alyeska Resort – Girdwood",
@@ -469,7 +585,9 @@
     "latitude": 60.9618866,
     "longitude": -149.0808696,
     "region": "West",
-    "popularity": 3.4
+    "popularity": 3.4,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Loveland",
@@ -477,7 +595,9 @@
     "latitude": 40.3977612,
     "longitude": -105.07498,
     "region": "Rockies",
-    "popularity": 4.0
+    "popularity": 4.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Gore Mountain",
@@ -485,7 +605,9 @@
     "latitude": 43.83422002854397,
     "longitude": -74.04031774710771,
     "region": "Northeast",
-    "popularity": 4.6
+    "popularity": 4.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Kirkwood",
@@ -493,7 +615,9 @@
     "latitude": 38.6757656,
     "longitude": -120.0616033,
     "region": "West",
-    "popularity": 3.6
+    "popularity": 3.6,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Bridger Bowl – Bozeman",
@@ -501,7 +625,9 @@
     "latitude": 45.7033552,
     "longitude": -111.0261859,
     "region": "Rockies",
-    "popularity": 3.8
+    "popularity": 3.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bogus Basin",
@@ -509,7 +635,9 @@
     "latitude": 44.8710842,
     "longitude": -111.5913777,
     "region": "Rockies",
-    "popularity": 3.7
+    "popularity": 3.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Crystal Mountain (WA)",
@@ -517,7 +645,9 @@
     "latitude": 46.9327365,
     "longitude": -121.4877287,
     "region": "West",
-    "popularity": null
+    "popularity": null,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Hunter Mountain",
@@ -525,7 +655,9 @@
     "latitude": 42.1778662,
     "longitude": -74.2304216,
     "region": "Northeast",
-    "popularity": 3.1
+    "popularity": 3.1,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Loon Mountain",
@@ -533,7 +665,9 @@
     "latitude": 44.0450575,
     "longitude": -71.6366372,
     "region": "Northeast",
-    "popularity": 4.6
+    "popularity": 4.6,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Apache",
@@ -541,7 +675,9 @@
     "latitude": 35.214632,
     "longitude": -109.4786676,
     "region": "Rockies",
-    "popularity": 3.6
+    "popularity": 3.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Tamarack Resort",
@@ -549,7 +685,9 @@
     "latitude": 44.6845884,
     "longitude": -116.1434326,
     "region": "Rockies",
-    "popularity": 4.7
+    "popularity": 4.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Stevens Pass",
@@ -557,15 +695,19 @@
     "latitude": 47.7456352,
     "longitude": -121.089171,
     "region": "West",
-    "popularity": 3.7
+    "popularity": 3.7,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Timberline",
     "ticket_cost": 149,
-    "latitude": 45.330720776656676, 
+    "latitude": 45.330720776656676,
     "longitude": -121.71020174031132,
     "region": "West",
-    "popularity": 5.2
+    "popularity": 5.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Windham Mountain",
@@ -573,7 +715,9 @@
     "latitude": 42.40842072194736,
     "longitude": -74.30171108107362,
     "region": "Northeast",
-    "popularity": 3.0
+    "popularity": 3.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Arizona Snowbowl",
@@ -581,7 +725,9 @@
     "latitude": 35.3299854,
     "longitude": -111.7053083,
     "region": "Rockies",
-    "popularity": 4.5
+    "popularity": 4.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Hood Skibowl",
@@ -589,7 +735,9 @@
     "latitude": 45.2939973,
     "longitude": -121.7805412,
     "region": "West",
-    "popularity": 2.8
+    "popularity": 2.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Grand Targhee",
@@ -597,7 +745,9 @@
     "latitude": 43.7849766,
     "longitude": -110.9469857,
     "region": "Rockies",
-    "popularity": 4.8
+    "popularity": 4.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Holiday Valley",
@@ -605,7 +755,9 @@
     "latitude": 42.26415502691567,
     "longitude": -78.66701145456246,
     "region": "Northeast",
-    "popularity": 2.3
+    "popularity": 2.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cannon Mountain",
@@ -613,7 +765,9 @@
     "latitude": 44.1566923,
     "longitude": -71.6986205,
     "region": "Northeast",
-    "popularity": 3.5
+    "popularity": 3.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Brian Head",
@@ -621,7 +775,9 @@
     "latitude": 37.6927551,
     "longitude": -112.850776,
     "region": "Rockies",
-    "popularity": 3.1
+    "popularity": 3.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Attitash Mountain Resort",
@@ -629,7 +785,9 @@
     "latitude": 44.0742099,
     "longitude": -71.2446654,
     "region": "Northeast",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Discovery Ski Area",
@@ -637,7 +795,9 @@
     "latitude": 46.2637557,
     "longitude": -113.2424489,
     "region": "Rockies",
-    "popularity": 3.9
+    "popularity": 3.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Wenatchee – Mission Ridge",
@@ -645,7 +805,9 @@
     "latitude": 47.3099982,
     "longitude": -120.3920956,
     "region": "West",
-    "popularity": 3.2
+    "popularity": 3.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Lutsen Mountains",
@@ -653,7 +815,9 @@
     "latitude": 47.6560207,
     "longitude": -90.7250701,
     "region": "Midwest",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bromley Mountain",
@@ -661,7 +825,9 @@
     "latitude": 43.2205924,
     "longitude": -72.9369274,
     "region": "Northeast",
-    "popularity": 2.7
+    "popularity": 2.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Eldora Mountain",
@@ -669,7 +835,9 @@
     "latitude": 39.9372535,
     "longitude": -105.5839741,
     "region": "Rockies",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "White Pass",
@@ -677,7 +845,9 @@
     "latitude": 46.63751513531634,
     "longitude": -121.39109799829077,
     "region": "West",
-    "popularity": 3.3
+    "popularity": 3.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Powderhorn",
@@ -685,7 +855,9 @@
     "latitude": 39.0698208,
     "longitude": -108.150835,
     "region": "Rockies",
-    "popularity": 2.7
+    "popularity": 2.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cranmore Mountain Resort",
@@ -693,7 +865,9 @@
     "latitude": 44.0572165,
     "longitude": -71.1000343,
     "region": "Northeast",
-    "popularity": 3.1
+    "popularity": 3.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Pico Mountain",
@@ -701,7 +875,9 @@
     "latitude": 43.6516287,
     "longitude": -72.8412842,
     "region": "Midatlantic",
-    "popularity": 3.2
+    "popularity": 3.2,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Brundage Mountain",
@@ -709,7 +885,9 @@
     "latitude": 45.004605,
     "longitude": -116.1556103,
     "region": "Rockies",
-    "popularity": 3.0
+    "popularity": 3.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Lost Trail Powder Mountain",
@@ -717,7 +895,9 @@
     "latitude": 45.6918629,
     "longitude": -113.9523593,
     "region": "Rockies",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mad River Glen",
@@ -725,7 +905,9 @@
     "latitude": 44.1975661,
     "longitude": -72.9238018,
     "region": "Northeast",
-    "popularity": 3.5
+    "popularity": 3.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sundance",
@@ -733,7 +915,9 @@
     "latitude": 40.390898,
     "longitude": -111.577661,
     "region": "Rockies",
-    "popularity": 3.3
+    "popularity": 3.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Gunstock",
@@ -741,7 +925,9 @@
     "latitude": 43.5410614,
     "longitude": -71.3662455,
     "region": "Northeast",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Big Snow American Dream (indoor ski area)",
@@ -749,7 +935,9 @@
     "latitude": 40.809588,
     "longitude": -74.071157,
     "region": "Northeast",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Dodge Ridge",
@@ -757,7 +945,9 @@
     "latitude": 38.1657088,
     "longitude": -119.9801175,
     "region": "West",
-    "popularity": 2.6
+    "popularity": 2.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Great Divide",
@@ -765,7 +955,9 @@
     "latitude": 44.7005016,
     "longitude": -111.4730607,
     "region": "Rockies",
-    "popularity": 3.2
+    "popularity": 3.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bear Mountain – Big Bear Lake",
@@ -773,15 +965,19 @@
     "latitude": 34.2273607,
     "longitude": -116.8614337,
     "region": "West",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": true,
+    "Epic": false
   },
   {
-    "name": "Mt. Sunapee",
+    "name": "Mount Sunapee",
     "ticket_cost": 119,
     "latitude": 43.3399279,
     "longitude": -72.0652753,
     "region": "Northeast",
-    "popularity": 3.3
+    "popularity": 3.3,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Lookout Pass",
@@ -789,7 +985,9 @@
     "latitude": 47.4508256,
     "longitude": -115.7127341,
     "region": "Rockies",
-    "popularity": 2.4
+    "popularity": 2.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Silver Mountain",
@@ -797,7 +995,9 @@
     "latitude": 47.514478695876484,
     "longitude": -116.15710981950457,
     "region": "Rockies",
-    "popularity": 3.4
+    "popularity": 3.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Santa Fé",
@@ -805,7 +1005,9 @@
     "latitude": 35.6876096,
     "longitude": -105.938456,
     "region": "Rockies",
-    "popularity": 2.5
+    "popularity": 2.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Ragged Mountain",
@@ -813,7 +1015,9 @@
     "latitude": 43.4782052,
     "longitude": -71.8440931,
     "region": "Northeast",
-    "popularity": 2.4
+    "popularity": 2.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Waterville Valley",
@@ -821,7 +1025,9 @@
     "latitude": 43.9496312,
     "longitude": -71.5056972,
     "region": "Northeast",
-    "popularity": 3.2
+    "popularity": 3.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Terry Peak",
@@ -829,7 +1035,9 @@
     "latitude": 41.0258168,
     "longitude": -104.8730246,
     "region": "Rockies",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Blue Mountain",
@@ -837,7 +1045,9 @@
     "latitude": 40.81080298080535,
     "longitude": -75.52074601031778,
     "region": "Midatlantic",
-    "popularity": 2.1
+    "popularity": 2.1,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Wildcat Mountain",
@@ -845,7 +1055,9 @@
     "latitude": 44.2589548,
     "longitude": -71.2014625,
     "region": "Northeast",
-    "popularity": 2.8
+    "popularity": 2.8,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Snowshoe Mountain",
@@ -853,7 +1065,9 @@
     "latitude": 38.40310929606787,
     "longitude": -79.99371887181677,
     "region": "Midatlantic",
-    "popularity": 3.6
+    "popularity": 3.6,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Snow Valley",
@@ -861,7 +1075,9 @@
     "latitude": 34.2249953,
     "longitude": -117.0353312,
     "region": "West",
-    "popularity": 2.5
+    "popularity": 2.5,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Beaver Mountain",
@@ -869,7 +1085,9 @@
     "latitude": 41.968338140076845,
     "longitude": -111.54409038285007,
     "region": "West",
-    "popularity": 2.6
+    "popularity": 2.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Granite Peak at Rib Mountain State Park",
@@ -877,7 +1095,9 @@
     "latitude": 44.92052,
     "longitude": -89.68735,
     "region": "Midwest",
-    "popularity": 2.4
+    "popularity": 2.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "The Highlands at Harbor Springs",
@@ -885,7 +1105,9 @@
     "latitude": 45.43168,
     "longitude": -84.992,
     "region": "Midwest",
-    "popularity": 2.5
+    "popularity": 2.5,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Willamette Pass – Crescent",
@@ -893,7 +1115,9 @@
     "latitude": 43.5271148,
     "longitude": -121.9425402,
     "region": "West",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Saddleback",
@@ -901,7 +1125,9 @@
     "latitude": 44.94798850596311,
     "longitude": -70.5269519450479,
     "region": "Northeast",
-    "popularity": 3.5
+    "popularity": 3.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Snow Summit – Big Bear Lake",
@@ -909,7 +1135,9 @@
     "latitude": 34.2376168,
     "longitude": -116.8886,
     "region": "West",
-    "popularity": 2.8
+    "popularity": 2.8,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Sandia Peak",
@@ -917,7 +1145,9 @@
     "latitude": 35.2100445,
     "longitude": -106.4496496,
     "region": "Rockies",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Timberline Mountain",
@@ -925,7 +1155,9 @@
     "latitude": 39.09829344895214,
     "longitude": -79.46052585941773,
     "region": "Midatlantic",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mountain Creek – Vernon",
@@ -933,7 +1165,9 @@
     "latitude": 41.1902849,
     "longitude": -74.5049738,
     "region": "Midatlantic",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Haystack Mountain – The Hermitage Club",
@@ -941,7 +1175,9 @@
     "latitude": 42.9235316,
     "longitude": -72.9012626,
     "region": "Northeast",
-    "popularity": 2.4
+    "popularity": 2.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "The Summit at Snoqualmie",
@@ -949,7 +1185,9 @@
     "latitude": 47.52871,
     "longitude": -121.82539,
     "region": "West",
-    "popularity": 3.3
+    "popularity": 3.3,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Mt. Spokane",
@@ -957,7 +1195,9 @@
     "latitude": 47.9279766,
     "longitude": -117.113635,
     "region": "West",
-    "popularity": 3.0
+    "popularity": 3.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bristol Mountain",
@@ -965,7 +1205,9 @@
     "latitude": 42.7417816,
     "longitude": -77.4157498,
     "region": " ",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Silverton Mountain",
@@ -973,7 +1215,9 @@
     "latitude": 37.8847265199958,
     "longitude": -107.66591900437506,
     "region": "Rockies",
-    "popularity": 3.1
+    "popularity": 3.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Wachusett Mountain",
@@ -981,7 +1225,9 @@
     "latitude": 42.5032137,
     "longitude": -71.8862312,
     "region": "Northeast",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Pleasant Mountain",
@@ -989,7 +1235,9 @@
     "latitude": 44.0270146,
     "longitude": -70.8220088,
     "region": "Northeast",
-    "popularity": 3.9
+    "popularity": 3.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Pats Peak",
@@ -997,7 +1245,9 @@
     "latitude": 43.1568132,
     "longitude": -71.7944871,
     "region": "Northeast",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sugar Mountain",
@@ -1005,7 +1255,9 @@
     "latitude": 36.1277635,
     "longitude": -81.869162,
     "region": "Midwest",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Titus Mountain",
@@ -1013,7 +1265,9 @@
     "latitude": 44.7542649,
     "longitude": -74.2413111,
     "region": "Northeast",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Granby Ranch",
@@ -1021,7 +1275,9 @@
     "latitude": 40.0502461,
     "longitude": -105.8963578,
     "region": "Rockies",
-    "popularity": 2.0
+    "popularity": 2.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Shasta Ski Park",
@@ -1029,7 +1285,9 @@
     "latitude": 41.3214093,
     "longitude": -122.203439,
     "region": "West",
-    "popularity": 3.8
+    "popularity": 3.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Pajarito Mountain",
@@ -1037,7 +1295,9 @@
     "latitude": 35.8878012,
     "longitude": -106.4005859,
     "region": "Rockies",
-    "popularity": 2.4
+    "popularity": 2.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Diamond Peak",
@@ -1045,7 +1305,9 @@
     "latitude": 40.9502385,
     "longitude": -108.8781712,
     "region": "Rockies",
-    "popularity": 2.6
+    "popularity": 2.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Maverick Mountain",
@@ -1053,7 +1315,9 @@
     "latitude": 45.4485354,
     "longitude": -113.1631003,
     "region": "Rockies",
-    "popularity": 2.7
+    "popularity": 2.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Boreal",
@@ -1061,7 +1325,9 @@
     "latitude": 39.3400001400788,
     "longitude": -120.35153193039801,
     "region": "West",
-    "popularity": 3.4
+    "popularity": 3.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mountain High",
@@ -1069,7 +1335,9 @@
     "latitude": 34.376641,
     "longitude": -117.6911717,
     "region": "West",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Belleayre Mountain",
@@ -1077,7 +1345,9 @@
     "latitude": 42.1268934,
     "longitude": -74.4740747,
     "region": "Northeast",
-    "popularity": 2.8
+    "popularity": 2.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cooper",
@@ -1085,7 +1355,9 @@
     "latitude": 39.36048540515007,
     "longitude": -106.30156302147765,
     "region": "Rockies",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Baldy",
@@ -1093,7 +1365,9 @@
     "latitude": 34.2364191,
     "longitude": -117.6591731,
     "region": "West",
-    "popularity": 3.4
+    "popularity": 3.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Pebble Creek",
@@ -1101,7 +1375,9 @@
     "latitude": 42.77872244162839,
     "longitude": -112.15931199058795,
     "region": "Rockies",
-    "popularity": 3.1
+    "popularity": 3.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Baker",
@@ -1109,7 +1385,9 @@
     "latitude": 48.8551968,
     "longitude": -121.6660375,
     "region": "West",
-    "popularity": 3.1
+    "popularity": 3.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Butternut",
@@ -1117,7 +1395,9 @@
     "latitude": 42.18366692123534,
     "longitude": -73.32008958877833,
     "region": "Northeast",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Holimont",
@@ -1125,7 +1405,9 @@
     "latitude": 42.2726907,
     "longitude": -78.6888956,
     "region": "Midatlantic",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sunlight Mountain",
@@ -1133,7 +1415,9 @@
     "latitude": 39.3902923,
     "longitude": -107.3381957,
     "region": "Rockies",
-    "popularity": 2.8
+    "popularity": 2.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Spirit Mountain",
@@ -1141,7 +1425,9 @@
     "latitude": 46.71845961489031,
     "longitude": -92.21690816518962,
     "region": "Midwest",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Showdown",
@@ -1149,7 +1435,9 @@
     "latitude": 46.83852887144475,
     "longitude": -110.70047307498226,
     "region": "Rockies",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Red River",
@@ -1157,7 +1445,9 @@
     "latitude": 36.7066588678476,
     "longitude": -105.41271576775057,
     "region": "Rockies",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Burke Mountain",
@@ -1165,7 +1455,9 @@
     "latitude": 44.5801297,
     "longitude": -71.8967182,
     "region": "Northeast",
-    "popularity": 3.0
+    "popularity": 3.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cherry Peak",
@@ -1173,7 +1465,9 @@
     "latitude": 41.92636413583565,
     "longitude": -111.75643799064103,
     "region": "Rockies",
-    "popularity": 2.4
+    "popularity": 2.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Seven Springs",
@@ -1181,7 +1475,9 @@
     "latitude": 40.0234876,
     "longitude": -79.2982472,
     "region": "Midatlantic",
-    "popularity": 2.0
+    "popularity": 2.0,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Cascade Mountain",
@@ -1189,7 +1485,9 @@
     "latitude": 43.503825636276964,
     "longitude": -89.51722471753058,
     "region": "Midwest",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Nordic Valley",
@@ -1197,7 +1495,9 @@
     "latitude": 41.30182304641293,
     "longitude": -111.85890695394946,
     "region": "Rockies",
-    "popularity": 2.3
+    "popularity": 2.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Arctic Valley",
@@ -1205,7 +1505,9 @@
     "latitude": 61.247703,
     "longitude": -149.5204483,
     "region": "West",
-    "popularity": 2.3
+    "popularity": 2.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Eagle Point",
@@ -1213,7 +1515,9 @@
     "latitude": 38.3203667,
     "longitude": -112.3838571,
     "region": "Rockies",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "BigRock Mountain",
@@ -1221,7 +1525,9 @@
     "latitude": 46.5222263,
     "longitude": -67.8286214,
     "region": "Northeast",
-    "popularity": 2.3
+    "popularity": 2.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Shawnee Mountain",
@@ -1229,7 +1535,9 @@
     "latitude": 41.040575729108724,
     "longitude": -75.08568233950844,
     "region": "Northeast",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Greek Peak",
@@ -1237,7 +1545,9 @@
     "latitude": 42.5023204,
     "longitude": -76.1480456,
     "region": "Northeast",
-    "popularity": 2.4
+    "popularity": 2.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Boyne Mountain",
@@ -1245,7 +1555,9 @@
     "latitude": 45.1586201,
     "longitude": -84.9389365,
     "region": "Midwest",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Wintergreen Resort",
@@ -1253,7 +1565,9 @@
     "latitude": 38.02856168730426,
     "longitude": -78.92959080541004,
     "region": "Midatlantic",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Antelope Butte",
@@ -1261,7 +1575,9 @@
     "latitude": 46.4886174,
     "longitude": -102.0212665,
     "region": "Rockies",
-    "popularity": 2.0
+    "popularity": 2.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Pine Creek",
@@ -1269,7 +1585,9 @@
     "latitude": 42.1030809939159,
     "longitude": -110.82884934830054,
     "region": "Rockies",
-    "popularity": 2.3
+    "popularity": 2.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Wisp – McHenry (Deep Creek Lake)",
@@ -1277,7 +1595,9 @@
     "latitude": 39.55712409865364,
     "longitude": -79.36337150243158,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Alpental",
@@ -1285,7 +1605,9 @@
     "latitude": 47.4408861,
     "longitude": -121.4328497,
     "region": "West",
-    "popularity": 2.9
+    "popularity": 2.9,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Berkshire East",
@@ -1293,7 +1615,9 @@
     "latitude": 42.62580031073636,
     "longitude": -72.87724466863993,
     "region": "Northeast",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Kissing Bridge",
@@ -1301,7 +1625,9 @@
     "latitude": 42.5997041,
     "longitude": -78.6574969,
     "region": "Midatlantic",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Dartmouth Skiway",
@@ -1309,7 +1635,9 @@
     "latitude": 43.787898,
     "longitude": -72.0943395,
     "region": "Northeast",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hoodoo Ski Area",
@@ -1317,7 +1645,9 @@
     "latitude": 44.4034058,
     "longitude": -121.8817603,
     "region": "West",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Labrador Mountain",
@@ -1325,7 +1655,9 @@
     "latitude": 42.7402398,
     "longitude": -76.0346328,
     "region": "Midatlantic",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Blacktail Mountain",
@@ -1333,7 +1665,9 @@
     "latitude": 48.496572,
     "longitude": -114.36972773653872,
     "region": "Rockies",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Snow King Mountain – Jackson",
@@ -1341,7 +1675,9 @@
     "latitude": 43.4705933,
     "longitude": -110.7550792,
     "region": "Rockies",
-    "popularity": 3.8
+    "popularity": 3.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Skiland – Mt. Aurora",
@@ -1349,7 +1685,9 @@
     "latitude": 65.0457159,
     "longitude": -147.4077907,
     "region": "West",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Snowy Range",
@@ -1357,7 +1695,9 @@
     "latitude": 41.3222487,
     "longitude": -106.172769,
     "region": "Rockies",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Blue Knob",
@@ -1365,7 +1705,9 @@
     "latitude": 40.2884092,
     "longitude": -78.5616833,
     "region": "Midatlantic",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Eaglecrest – Juneau",
@@ -1373,7 +1715,9 @@
     "latitude": 58.2677706,
     "longitude": -134.5094172,
     "region": "West",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Turner Mountain",
@@ -1381,7 +1725,9 @@
     "latitude": 48.6073358,
     "longitude": -115.6417571,
     "region": "Rockies",
-    "popularity": 2.7
+    "popularity": 2.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Nub's Nob Ski Area",
@@ -1389,7 +1735,9 @@
     "latitude": 45.471488,
     "longitude": -84.9053257,
     "region": "Midwest",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Dollar Mountain – Sun Valley",
@@ -1397,7 +1745,9 @@
     "latitude": 43.6817047,
     "longitude": -114.3445547,
     "region": "Rockies",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": true,
+    "Epic": false
   },
   {
     "name": "Giants Ridge",
@@ -1405,7 +1755,9 @@
     "latitude": 47.5783847,
     "longitude": -92.3045478,
     "region": "Midwest",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Whitecap Mountains",
@@ -1413,7 +1765,9 @@
     "latitude": 46.4078933,
     "longitude": -90.3956714,
     "region": "Midwest",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Middlebury College Snow Bowl",
@@ -1421,7 +1775,9 @@
     "latitude": 43.9344876,
     "longitude": -72.9569416,
     "region": "Northeast",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Pomerelle",
@@ -1429,7 +1785,9 @@
     "latitude": 42.3137847,
     "longitude": -113.614279,
     "region": "Rockies",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sipapu",
@@ -1437,7 +1795,9 @@
     "latitude": 36.1495118,
     "longitude": -105.5535966,
     "region": "Rockies",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Ashland",
@@ -1445,7 +1805,9 @@
     "latitude": 45.598282,
     "longitude": -106.275275,
     "region": "Rockies",
-    "popularity": 2.0
+    "popularity": 2.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Catamount",
@@ -1453,7 +1815,9 @@
     "latitude": 42.1655891,
     "longitude": -73.4772872,
     "region": "Northeast",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Beech Mountain",
@@ -1461,7 +1825,9 @@
     "latitude": 36.1914373,
     "longitude": -81.8781191,
     "region": "Midatlantic",
-    "popularity": 2.1
+    "popularity": 2.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Elk Mountain",
@@ -1469,7 +1835,9 @@
     "latitude": 41.7195945,
     "longitude": -75.5584303,
     "region": "Midatlantic",
-    "popularity": 2.0
+    "popularity": 2.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sleeping Giant",
@@ -1477,7 +1845,9 @@
     "latitude": 44.49308428952797,
     "longitude": -109.93933611589215,
     "region": "Rockies",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Whitetail",
@@ -1485,7 +1855,9 @@
     "latitude": 39.7425982532382,
     "longitude": -77.93356593411124,
     "region": "Midatlantic",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Tahoe Donner",
@@ -1493,7 +1865,9 @@
     "latitude": 39.3519001,
     "longitude": -120.2305019,
     "region": "West",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Black Mountain – Rumford",
@@ -1501,7 +1875,9 @@
     "latitude": 44.5839209,
     "longitude": -70.6370712,
     "region": "Northeast",
-    "popularity": 2.1
+    "popularity": 2.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Plattekill",
@@ -1509,7 +1885,9 @@
     "latitude": 42.290435866510215,
     "longitude": -74.65325797712418,
     "region": "Northeast",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Tenney Mountain",
@@ -1517,7 +1895,9 @@
     "latitude": 43.7444571,
     "longitude": -71.7690923,
     "region": "Northeast",
-    "popularity": 2.3
+    "popularity": 2.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Bohemia",
@@ -1525,7 +1905,9 @@
     "latitude": 47.3915774,
     "longitude": -88.0131634,
     "region": "Midwest",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Song Mountain",
@@ -1533,7 +1915,9 @@
     "latitude": 42.7711578,
     "longitude": -76.1626753,
     "region": "Northeast",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Abram",
@@ -1541,7 +1925,9 @@
     "latitude": 44.3695112,
     "longitude": -70.7125668,
     "region": "Northeast",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Jiminy Peak",
@@ -1549,7 +1935,9 @@
     "latitude": 42.5488979,
     "longitude": -73.2830361,
     "region": "Northeast",
-    "popularity": 2.1
+    "popularity": 2.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Crotched Mountain",
@@ -1557,7 +1945,9 @@
     "latitude": 42.9982909,
     "longitude": -71.8739065,
     "region": "Northeast",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Bluewood",
@@ -1565,7 +1955,9 @@
     "latitude": 46.08385301940426,
     "longitude": -117.8501617769808,
     "region": "West",
-    "popularity": 2.1
+    "popularity": 2.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Teton Pass",
@@ -1573,7 +1965,9 @@
     "latitude": 47.9301982,
     "longitude": -112.8113091,
     "region": "Rockies",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Jackson Creek Summit (Snowriver Mountain Resort)",
@@ -1581,7 +1975,9 @@
     "latitude": 46.5003877490813,
     "longitude": -89.9710677498633,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Loup Loup Ski Bowl",
@@ -1589,7 +1985,9 @@
     "latitude": 48.39196,
     "longitude": -119.9183704,
     "region": "West",
-    "popularity": 2.3
+    "popularity": 2.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Shanty Creek Resorts – Schuss Mountain",
@@ -1597,7 +1995,9 @@
     "latitude": 44.9440307,
     "longitude": -85.1360928,
     "region": "Midwest",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "White Pine – Pinedale",
@@ -1605,7 +2005,9 @@
     "latitude": 42.86661,
     "longitude": -109.86099,
     "region": "Rockies",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Caberfae Peaks",
@@ -1613,7 +2015,9 @@
     "latitude": 44.244227,
     "longitude": -85.7198411,
     "region": "Midwest",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Jack Frost Mountain",
@@ -1621,7 +2025,9 @@
     "latitude": 41.1103614,
     "longitude": -75.6519231,
     "region": "Midatlantic",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Mt. Kato",
@@ -1629,7 +2035,9 @@
     "latitude": 44.1307502,
     "longitude": -94.0366181,
     "region": "Midwest",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Deer Mountain",
@@ -1637,7 +2045,9 @@
     "latitude": 40.639734025467654,
     "longitude": -111.47589083438983,
     "region": "Rockies",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Devil's Head",
@@ -1645,7 +2055,9 @@
     "latitude": 43.41822177426361,
     "longitude": -89.6268435598655,
     "region": "Midwest",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Massanutten",
@@ -1653,7 +2065,9 @@
     "latitude": 38.3988308,
     "longitude": -78.7597454,
     "region": "Midatlantic",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bear Creek Mountain Resort",
@@ -1661,7 +2075,9 @@
     "latitude": 40.4746724,
     "longitude": -75.6294702,
     "region": "Midatlantic",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bittersweet",
@@ -1669,7 +2085,9 @@
     "latitude": 42.4654216,
     "longitude": -85.7608186,
     "region": "Midwest",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Whaleback",
@@ -1677,7 +2095,9 @@
     "latitude": 42.5487067,
     "longitude": -70.7842131,
     "region": "Northeast",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Canaan Valley",
@@ -1685,7 +2105,9 @@
     "latitude": 39.0061024,
     "longitude": -79.4395785,
     "region": "Northeast",
-    "popularity": 1.9
+    "popularity": 1.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Saskadena Six",
@@ -1693,7 +2115,9 @@
     "latitude": 43.6627316,
     "longitude": -72.547428,
     "region": "Northeast",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Meadowlark Ski Lodge",
@@ -1701,7 +2125,9 @@
     "latitude": 44.1639931,
     "longitude": -107.2154999,
     "region": "Rockies",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Big Powderhorn Mountain",
@@ -1709,7 +2135,9 @@
     "latitude": 46.5055854,
     "longitude": -90.0935334,
     "region": "Midwest",
-    "popularity": 2.1
+    "popularity": 2.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Swain",
@@ -1717,7 +2145,9 @@
     "latitude": 42.477014680704805,
     "longitude": -77.8545394699708,
     "region": "Northeast",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cloudcroft",
@@ -1725,7 +2155,9 @@
     "latitude": 32.9576648,
     "longitude": -105.742721,
     "region": "Rockies",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Magic Mountain Resort",
@@ -1733,7 +2165,9 @@
     "latitude": 44.66874076492108,
     "longitude": -72.99363331366804,
     "region": "Northeast",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Warner Canyon – Lakeview",
@@ -1741,7 +2175,9 @@
     "latitude": 42.2370942,
     "longitude": -120.2944044,
     "region": "West",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Spout Springs (temporarily closed)",
@@ -1749,7 +2185,9 @@
     "latitude": 45.75645680327253,
     "longitude": -118.05030263434273,
     "region": "West",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Liberty Mountain",
@@ -1757,7 +2195,9 @@
     "latitude": 39.7606369,
     "longitude": -77.3685341,
     "region": "Midatlantic",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Cooper Spur",
@@ -1765,7 +2205,9 @@
     "latitude": 45.4256641,
     "longitude": -121.5908747,
     "region": "West",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hidden Valley (PA)",
@@ -1773,7 +2215,9 @@
     "latitude": 40.1067745,
     "longitude": -75.3779632,
     "region": "Midatlantic",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Marquette Mountain",
@@ -1781,7 +2225,9 @@
     "latitude": 46.5079579,
     "longitude": -87.4203185,
     "region": "Midwest",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "West Mountain",
@@ -1789,7 +2235,9 @@
     "latitude": 43.2892981,
     "longitude": -73.7384141,
     "region": "Midatlantic",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Waterman",
@@ -1797,7 +2245,9 @@
     "latitude": 34.3493929,
     "longitude": -117.928836,
     "region": "West",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Soda Springs",
@@ -1805,7 +2255,9 @@
     "latitude": 39.3361428,
     "longitude": -120.3501644,
     "region": "West",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Oak Mountain",
@@ -1813,7 +2265,9 @@
     "latitude": 43.51356394581529,
     "longitude": -74.36096929031763,
     "region": "Midatlantic",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Holly",
@@ -1821,7 +2275,9 @@
     "latitude": 42.829319,
     "longitude": -83.5653589,
     "region": "Midwest",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Montage Mountain Resort",
@@ -1829,7 +2285,9 @@
     "latitude": 41.35141998184813,
     "longitude": -75.66286328310689,
     "region": "Midatlantic",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Anthony Lakes Mountain Resort",
@@ -1837,7 +2295,9 @@
     "latitude": 44.9611568,
     "longitude": -118.2396817,
     "region": "West",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Winterplace",
@@ -1845,7 +2305,9 @@
     "latitude": 37.5975721,
     "longitude": -81.1212251,
     "region": "Midatlantic",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bear Paw Ski Bowl",
@@ -1853,7 +2315,9 @@
     "latitude": 48.17777,
     "longitude": -109.63408,
     "region": "Rockies",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Pine Mountain",
@@ -1861,7 +2325,9 @@
     "latitude": 45.840167406569186,
     "longitude": -88.08863184454928,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Peek'n Peak",
@@ -1869,7 +2335,9 @@
     "latitude": 42.0635772,
     "longitude": -79.7404735,
     "region": "Midatlantic",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bousquet",
@@ -1877,7 +2345,9 @@
     "latitude": 42.42271546286244,
     "longitude": -73.27836427497877,
     "region": "Northeast",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Alpine Mountain Ski & Snow Tubing Center (temporarily closed)",
@@ -1885,7 +2355,9 @@
     "latitude": 41.11513048042609,
     "longitude": -75.22560496276456,
     "region": "Midatlantic",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Buffalo Ski Center",
@@ -1893,7 +2365,9 @@
     "latitude": 42.681225864436804,
     "longitude": -78.69203432338563,
     "region": "Midatlantic",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Big Squaw",
@@ -1901,7 +2375,9 @@
     "latitude": 45.506842228001084,
     "longitude": -69.70202696093436,
     "region": "Northeast",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Royal Mountain",
@@ -1909,7 +2385,9 @@
     "latitude": 43.08154431790607,
     "longitude": -74.50494287257807,
     "region": "Northeast",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Badger Pass",
@@ -1917,7 +2395,9 @@
     "latitude": 37.66248849556975,
     "longitude": -119.663333317882,
     "region": "West",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Otsego – Gaylord",
@@ -1925,7 +2405,9 @@
     "latitude": 45.027513,
     "longitude": -84.674752,
     "region": "Midwest",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mohawk Mountain",
@@ -1933,7 +2415,9 @@
     "latitude": 41.8381327,
     "longitude": -73.3144724,
     "region": "Midatlantic",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Black River Basin (Snowriver Mountain Resort)",
@@ -1941,7 +2425,9 @@
     "latitude": 46.50497513939192,
     "longitude": -89.99756217500475,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Big Bear at Masthope Mountain",
@@ -1949,7 +2435,9 @@
     "latitude": 41.52344869378473,
     "longitude": -75.02473204390309,
     "region": "Midatlantic",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Porcupine Mountain",
@@ -1957,7 +2445,9 @@
     "latitude": 46.81792503259911,
     "longitude": -89.65008660197213,
     "region": "Midwest",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Alpine Valley Resort – Elkhorn",
@@ -1965,7 +2455,9 @@
     "latitude": 41.28639,
     "longitude": -96.23447,
     "region": "Midwest",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Snow Ridge",
@@ -1973,7 +2465,9 @@
     "latitude": 43.6394937,
     "longitude": -75.421023,
     "region": "Midatlantic",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Afton Alps",
@@ -1981,7 +2475,9 @@
     "latitude": 44.8531879,
     "longitude": -92.7848027,
     "region": "Midwest",
-    "popularity": 2.0
+    "popularity": 2.0,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Hesperus Ski Area (temporarily closed)",
@@ -1989,7 +2485,9 @@
     "latitude": 37.29927822181284,
     "longitude": -108.05518254858445,
     "region": "Rockies",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Spring Mountain",
@@ -1997,7 +2495,9 @@
     "latitude": 40.27259687778778,
     "longitude": -75.44845164892833,
     "region": "Midatlantic",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. La Crosse",
@@ -2005,7 +2505,9 @@
     "latitude": 43.7447361,
     "longitude": -91.1871686,
     "region": "Midwest",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Lemmon Ski Valley",
@@ -2013,7 +2515,9 @@
     "latitude": 32.4473497,
     "longitude": -110.7815018,
     "region": "Rockies",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Norway Mountain",
@@ -2021,7 +2525,9 @@
     "latitude": 45.7913534,
     "longitude": -87.8679665,
     "region": "Midwest",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sitzmark (temporarily closed)",
@@ -2029,7 +2535,9 @@
     "latitude": 48.86404155651991,
     "longitude": -119.16520520737204,
     "region": "West",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Roundtop",
@@ -2037,7 +2545,9 @@
     "latitude": 40.10837,
     "longitude": -76.928669,
     "region": "Midatlantic",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Welch Village",
@@ -2045,7 +2555,9 @@
     "latitude": 44.5519083,
     "longitude": -92.7292683,
     "region": "Midwest",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Las Vegas Ski and Snowboard Resort – Lee Canyon",
@@ -2053,7 +2565,9 @@
     "latitude": 35.03474,
     "longitude": -112.03489,
     "region": "Rockies",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cataloochee",
@@ -2061,7 +2575,9 @@
     "latitude": 35.6401005,
     "longitude": -83.0801441,
     "region": "Midatlantic",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Laurel Mountain",
@@ -2069,7 +2585,9 @@
     "latitude": 40.1667561,
     "longitude": -79.1685237,
     "region": "Midatlantic",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Ober Gatlinburg",
@@ -2077,7 +2595,9 @@
     "latitude": 35.7031855,
     "longitude": -83.5587502,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "McCauley Mountain",
@@ -2085,7 +2605,9 @@
     "latitude": 40.9700862,
     "longitude": -76.2868829,
     "region": "Midatlantic",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Ski Brule",
@@ -2093,7 +2615,9 @@
     "latitude": 46.0284509,
     "longitude": -88.7055528,
     "region": "Midwest",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Camden Snow Bowl",
@@ -2101,7 +2625,9 @@
     "latitude": 44.2133765,
     "longitude": -69.1410149,
     "region": "Northeast",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cuchara Mountain Park",
@@ -2109,7 +2635,9 @@
     "latitude": 37.35066673509215,
     "longitude": -105.12821489507313,
     "region": "Rockies",
-    "popularity": 2.3
+    "popularity": 2.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hatley Pointe",
@@ -2117,7 +2645,9 @@
     "latitude": 35.9547387,
     "longitude": -82.5088569,
     "region": "Midatlantic",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mad River Mountain",
@@ -2125,7 +2655,9 @@
     "latitude": 40.3164381,
     "longitude": -83.6751036,
     "region": "Midwest",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Granite Gorge (temporarily closed)",
@@ -2133,7 +2665,9 @@
     "latitude": 42.971127126264946,
     "longitude": -72.21201181756436,
     "region": "Northeast",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Crystal Mountain (MI)",
@@ -2141,7 +2675,9 @@
     "latitude": 44.5216107,
     "longitude": -86.0030778,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mont Ripley",
@@ -2149,7 +2685,9 @@
     "latitude": 47.1277064,
     "longitude": -88.5599236,
     "region": "Midwest",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Moose Mountain",
@@ -2157,7 +2695,9 @@
     "latitude": 64.9445846,
     "longitude": -147.9762088,
     "region": "West",
-    "popularity": 1.7
+    "popularity": 1.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bryce Resort",
@@ -2165,7 +2705,9 @@
     "latitude": 38.8135688,
     "longitude": -78.7660083,
     "region": "Midatlantic",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Snow Trails",
@@ -2173,7 +2715,9 @@
     "latitude": 40.6710623,
     "longitude": -82.5026745,
     "region": "Midwest",
-    "popularity": 1.4
+    "popularity": 1.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Powder Ridge Mountain Park & Resort",
@@ -2181,7 +2725,9 @@
     "latitude": 41.50174139384035,
     "longitude": -72.73645430416144,
     "region": "Midatlantic",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Big Boulder",
@@ -2189,7 +2735,9 @@
     "latitude": 41.0490822,
     "longitude": -75.6022198,
     "region": "Midatlantic",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Mt. Eyak",
@@ -2197,7 +2745,9 @@
     "latitude": 60.5636185,
     "longitude": -145.7092505,
     "region": "West",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Southington",
@@ -2205,7 +2755,9 @@
     "latitude": 41.5820193,
     "longitude": -72.9251914,
     "region": "Midatlantic",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Brighton",
@@ -2213,7 +2765,9 @@
     "latitude": 40.59943095169097,
     "longitude": -83.8091983,
     "region": "Midwest",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Hunt Hollow Ski Club",
@@ -2221,7 +2775,9 @@
     "latitude": 42.6441124,
     "longitude": -77.4813584,
     "region": "Midatlantic",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Chestnut Mountain",
@@ -2229,7 +2785,9 @@
     "latitude": 42.3173239,
     "longitude": -90.3979135,
     "region": "Midwest",
-    "popularity": 1.6
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mount Pleasant",
@@ -2237,7 +2795,9 @@
     "latitude": 41.852232235296995,
     "longitude": -80.06880102044138,
     "region": "Midatlantic",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "King Pine – Purity Spring Resort",
@@ -2245,7 +2805,9 @@
     "latitude": 43.8682414,
     "longitude": -71.0893811,
     "region": "Northeast",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Nashoba Valley",
@@ -2253,7 +2815,9 @@
     "latitude": 42.5436878,
     "longitude": -71.448264,
     "region": "Northeast",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Fort Wainwright/​Birch Hill – Fairbanks",
@@ -2261,7 +2825,9 @@
     "latitude": 64.83778,
     "longitude": -147.71639,
     "region": "West",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hidden Valley (MO)",
@@ -2269,7 +2835,9 @@
     "latitude": 38.4291009,
     "longitude": -92.2162293,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Pine Knob",
@@ -2277,7 +2845,9 @@
     "latitude": 42.7446857,
     "longitude": -83.3679171,
     "region": "Midwest",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Nordic Mountain",
@@ -2285,7 +2855,9 @@
     "latitude": 44.121588502600304,
     "longitude": -89.18128150399673,
     "region": "Midwest",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Holiday Mountain (NY)",
@@ -2293,7 +2865,9 @@
     "latitude": 41.63030971372228,
     "longitude": -74.61298201181579,
     "region": "Northeast",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Quechee Lakes Ski Area",
@@ -2301,7 +2875,9 @@
     "latitude": 43.65666090642967,
     "longitude": -72.44263330220664,
     "region": "Northeast",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Appalachian Ski Mountain",
@@ -2309,7 +2885,9 @@
     "latitude": 36.17471406876782,
     "longitude": -81.6623721,
     "region": "Midatlantic",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Perfect North Slopes",
@@ -2317,7 +2895,9 @@
     "latitude": 39.1472341,
     "longitude": -84.8877354,
     "region": "Midwest",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "The Homestead Resort",
@@ -2325,7 +2905,9 @@
     "latitude": 37.997252262447006,
     "longitude": -79.82452939583997,
     "region": "Midatlantic",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Shanty Creek Resorts – Summit Mountain",
@@ -2333,7 +2915,9 @@
     "latitude": 44.9471269,
     "longitude": -85.1873351,
     "region": "Midwest",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Seven Oaks",
@@ -2341,7 +2925,9 @@
     "latitude": 42.74925970796868,
     "longitude": -91.80315666185722,
     "region": "Midwest",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Snowstar",
@@ -2349,7 +2935,9 @@
     "latitude": 41.42542017774525,
     "longitude": -90.74621781950714,
     "region": "Midwest",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cockaigne (temporarily closed)",
@@ -2357,7 +2945,9 @@
     "latitude": 42.26418340875282,
     "longitude": -79.16224406363159,
     "region": "Midatlantic",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hilltop – Anchorage",
@@ -2365,7 +2955,9 @@
     "latitude": 61.1410479,
     "longitude": -149.7386481,
     "region": "West",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Treetops",
@@ -2373,7 +2965,9 @@
     "latitude": 45.03321124784248,
     "longitude": -84.58914885701193,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Tyrol Basin – Mt Horeb",
@@ -2381,7 +2975,9 @@
     "latitude": 43.0460807,
     "longitude": -89.7850082,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Thunder Ridge",
@@ -2389,7 +2985,9 @@
     "latitude": 41.3371967,
     "longitude": -72.7461296,
     "region": "Midatlantic",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Andes Tower Hills",
@@ -2397,7 +2995,9 @@
     "latitude": 45.8505374,
     "longitude": -95.6302951,
     "region": "Midwest",
-    "popularity": 0.4
+    "popularity": 0.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Ashwabay – Salmo",
@@ -2405,7 +3005,9 @@
     "latitude": 46.777379535953855,
     "longitude": -90.89620637683313,
     "region": "Midwest",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Jefferson",
@@ -2413,7 +3015,9 @@
     "latitude": 46.73323753623917,
     "longitude": -68.04493513825997,
     "region": "Northeast",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Holiday",
@@ -2421,7 +3025,9 @@
     "latitude": 44.7418944,
     "longitude": -85.5156419,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Powder Ridge",
@@ -2429,7 +3035,9 @@
     "latitude": 41.501757464252194,
     "longitude": -72.73573547219975,
     "region": "Northeast",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Wild Mountain",
@@ -2437,7 +3045,9 @@
     "latitude": 45.48905447072905,
     "longitude": -92.70520964439032,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sky Tavern",
@@ -2445,7 +3055,9 @@
     "latitude": 39.33706863393297,
     "longitude": -119.87246836011506,
     "region": "West",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bradford",
@@ -2453,7 +3065,9 @@
     "latitude": 42.7448769737999,
     "longitude": -71.05580447524909,
     "region": "Northeast",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Woods Valley",
@@ -2461,7 +3075,9 @@
     "latitude": 43.30218003274111,
     "longitude": -75.38266602221914,
     "region": "Northeast",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Stagecoach Mountain (temporarily closed)",
@@ -2469,7 +3085,9 @@
     "latitude": 42.0346090183096,
     "longitude": -118.87054941478888,
     "region": "West",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Steeplechase",
@@ -2477,7 +3095,9 @@
     "latitude": 44.24382352016926,
     "longitude": -92.51447516165933,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mystic Mountain – Farmington",
@@ -2485,7 +3105,9 @@
     "latitude": 39.81363441246286,
     "longitude": -79.54603285270413,
     "region": "Midatlantic",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Zion Hill",
@@ -2493,7 +3115,9 @@
     "latitude": 37.3029722,
     "longitude": -84.1036971,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sundown Mountain Resort",
@@ -2501,7 +3125,9 @@
     "latitude": 42.516473,
     "longitude": -90.8225677,
     "region": "Midwest",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Trollhaugen",
@@ -2509,7 +3135,9 @@
     "latitude": 45.35158533219775,
     "longitude": -92.61812913899703,
     "region": "Midwest",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Snow Creek",
@@ -2517,7 +3145,9 @@
     "latitude": 39.46736274926865,
     "longitude": -94.9707094177779,
     "region": "Midwest",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Skeetawk – Hatcher Pass",
@@ -2525,7 +3155,9 @@
     "latitude": 61.743237582427554,
     "longitude": -149.23386683153637,
     "region": "West",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "McIntyre",
@@ -2533,7 +3165,9 @@
     "latitude": 43.00676351744415,
     "longitude": -71.44032277028872,
     "region": "Northeast",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Great Bear Ski Valley",
@@ -2541,7 +3175,9 @@
     "latitude": 43.578321657601016,
     "longitude": -96.66307081398726,
     "region": "Rockies",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Lost Valley",
@@ -2549,7 +3185,9 @@
     "latitude": 35.8649611,
     "longitude": -78.7322875,
     "region": "Midatlantic",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Elko Snobowl",
@@ -2557,7 +3195,9 @@
     "latitude": 40.9095096,
     "longitude": -115.8571125,
     "region": "Rockies",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Howelsen Hill – Steamboat Springs",
@@ -2565,7 +3205,9 @@
     "latitude": 40.4805325,
     "longitude": -106.8406049,
     "region": "Rockies",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Huff Hills (temporarily closed)",
@@ -2573,7 +3215,9 @@
     "latitude": 46.627483943303915,
     "longitude": -100.7218138870367,
     "region": "Rockies",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Victor Constant – West Point",
@@ -2581,7 +3225,9 @@
     "latitude": 41.39148,
     "longitude": -73.95597,
     "region": "Midatlantic",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Eagle Rock",
@@ -2589,7 +3235,9 @@
     "latitude": 40.927273,
     "longitude": -76.1069745,
     "region": "Midatlantic",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Alpine Valley Ohio",
@@ -2597,7 +3245,9 @@
     "latitude": 40.3144192,
     "longitude": -83.6806534,
     "region": "Midwest",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Little Switzerland",
@@ -2605,7 +3255,9 @@
     "latitude": 35.8492885,
     "longitude": -82.0903939,
     "region": "Midwest",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Brandywine",
@@ -2613,7 +3265,9 @@
     "latitude": 41.2846784,
     "longitude": -81.5553246,
     "region": "Midwest",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Timber Ridge",
@@ -2621,7 +3275,9 @@
     "latitude": 42.391664023923795,
     "longitude": -85.78090658876539,
     "region": "Midwest",
-    "popularity": 1.5
+    "popularity": 1.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mount Peter",
@@ -2629,7 +3285,9 @@
     "latitude": 41.247961129914444,
     "longitude": -74.2952517003374,
     "region": "Northeast",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Buena Vista",
@@ -2637,7 +3295,9 @@
     "latitude": 42.7445814,
     "longitude": -95.1127525,
     "region": "Midwest",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Otis Ridge",
@@ -2645,7 +3305,9 @@
     "latitude": 42.19652878711785,
     "longitude": -73.09713215350016,
     "region": "Northeast",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Tussey Mountain",
@@ -2653,7 +3315,9 @@
     "latitude": 40.3635463,
     "longitude": -78.2105365,
     "region": "Midatlantic",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Coffee Mill",
@@ -2661,7 +3325,9 @@
     "latitude": 44.3602201,
     "longitude": -92.0438684,
     "region": "Midwest",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Detroit Mountain",
@@ -2669,7 +3335,9 @@
     "latitude": 46.8161658,
     "longitude": -95.7835259,
     "region": "Midwest",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "The Omni Homestead",
@@ -2677,7 +3345,9 @@
     "latitude": 37.99729266712766,
     "longitude": -79.83006575649902,
     "region": "Midatlantic",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Alta Sierra – Shirley Meadows",
@@ -2685,7 +3355,9 @@
     "latitude": 35.7110038,
     "longitude": -118.5600549,
     "region": "West",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Yawgoo Valley",
@@ -2693,7 +3365,9 @@
     "latitude": 41.5174624,
     "longitude": -71.5273283,
     "region": "Midatlantic",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Willard Mountain – Greenwich",
@@ -2701,7 +3375,9 @@
     "latitude": 43.0209561,
     "longitude": -73.516903,
     "region": "Northeast",
-    "popularity": 1.2
+    "popularity": 1.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mont du Lac",
@@ -2709,7 +3385,9 @@
     "latitude": 46.651770627992406,
     "longitude": -92.2843568615006,
     "region": "Midwest",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sunburst",
@@ -2717,7 +3395,9 @@
     "latitude": 43.494061,
     "longitude": -88.223986,
     "region": "Midwest",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Boston Mills",
@@ -2725,7 +3405,9 @@
     "latitude": 41.2636921,
     "longitude": -81.5643259,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": true
   },
   {
     "name": "Bruce Mound",
@@ -2733,7 +3415,9 @@
     "latitude": 44.4438509,
     "longitude": -90.7923656,
     "region": "Midwest",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Blue Hills",
@@ -2741,7 +3425,9 @@
     "latitude": 43.5508992,
     "longitude": -74.1709694,
     "region": "Northeast",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cannonsburg",
@@ -2749,7 +3435,9 @@
     "latitude": 38.3886931,
     "longitude": -82.702662,
     "region": "Midwest",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Eaton Mountain (temporarily closed)",
@@ -2757,7 +3445,9 @@
     "latitude": 44.55117,
     "longitude": -70.00006,
     "region": "Northeast",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Chester Bowl",
@@ -2765,7 +3455,9 @@
     "latitude": 46.8126979,
     "longitude": -92.0955111,
     "region": "Midwest",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Dry Hill",
@@ -2773,7 +3465,9 @@
     "latitude": 43.9316351571594,
     "longitude": -75.89962202800592,
     "region": "Northeast",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Kendall Mountain – Silverton",
@@ -2781,7 +3475,9 @@
     "latitude": 37.8114532,
     "longitude": -107.6554638,
     "region": "Rockies",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Frost Fire Park",
@@ -2789,7 +3485,9 @@
     "latitude": 48.91218393796868,
     "longitude": -98.0667814,
     "region": "Rockies",
-    "popularity": 0.2
+    "popularity": 0.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Buck Hill",
@@ -2797,7 +3495,9 @@
     "latitude": 44.7233167,
     "longitude": -93.2855624,
     "region": "Midwest",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Echo Mountain Park – Idaho Springs",
@@ -2805,7 +3505,9 @@
     "latitude": 39.74249,
     "longitude": -105.51361,
     "region": "Rockies",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Christmas Mountain",
@@ -2813,7 +3515,9 @@
     "latitude": 43.6092236578887,
     "longitude": -89.86006554013,
     "region": "Midwest",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Campgaw Mountain",
@@ -2821,7 +3525,9 @@
     "latitude": 41.0542633,
     "longitude": -74.1991927,
     "region": "Midatlantic",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hyland Hills",
@@ -2829,7 +3535,9 @@
     "latitude": 44.843774505959956,
     "longitude": -93.36361100394994,
     "region": "Midwest",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hermon Mountain",
@@ -2837,7 +3545,9 @@
     "latitude": 44.7796111,
     "longitude": -68.9601504,
     "region": "Northeast",
-    "popularity": 0.3
+    "popularity": 0.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Maple Ski Ridge",
@@ -2845,7 +3555,9 @@
     "latitude": 42.8157643,
     "longitude": -74.0340035,
     "region": "Northeast",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Villa Roma",
@@ -2853,7 +3565,9 @@
     "latitude": 41.76307685746825,
     "longitude": -74.97285055997104,
     "region": "Northeast",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Heiliger Huegel – Hubertus",
@@ -2861,7 +3575,9 @@
     "latitude": 43.25232805688397,
     "longitude": -88.31117721939329,
     "region": "Midwest",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Swiss Valley",
@@ -2869,7 +3585,9 @@
     "latitude": 41.95487202937956,
     "longitude": -85.82738204237292,
     "region": "Midwest",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Camp 10",
@@ -2877,7 +3595,9 @@
     "latitude": 45.549325550323076,
     "longitude": -89.50303688499264,
     "region": "Midwest",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mount Ski Gull",
@@ -2885,7 +3605,9 @@
     "latitude": 46.4448501,
     "longitude": -94.378519,
     "region": "Midwest",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Beartooth Basin",
@@ -2893,7 +3615,9 @@
     "latitude": 44.9773103,
     "longitude": -109.4357211,
     "region": "Rockies",
-    "popularity": 1.3
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sunrise Park",
@@ -2901,7 +3625,9 @@
     "latitude": 36.3050725,
     "longitude": -119.2701388,
     "region": "West",
-    "popularity": 2.2
+    "popularity": 2.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Denton Hill State Park (temporarily closed)",
@@ -2909,7 +3635,9 @@
     "latitude": 41.76757,
     "longitude": -77.83,
     "region": "Midatlantic",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Titcomb Mountain",
@@ -2917,7 +3645,9 @@
     "latitude": 44.6484143,
     "longitude": -70.1716605,
     "region": "Northeast",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Sapphire Valley",
@@ -2925,7 +3655,9 @@
     "latitude": 35.1223657,
     "longitude": -83.0594472,
     "region": "Midatlantic",
-    "popularity": 0.4
+    "popularity": 0.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Toggenburg Ski Center (temporarily closed)",
@@ -2933,7 +3665,9 @@
     "latitude": 42.82642144545162,
     "longitude": -75.9599774599029,
     "region": "Northeast",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Blizzard Mountain",
@@ -2941,7 +3675,9 @@
     "latitude": 43.5007366,
     "longitude": -113.6811332,
     "region": "Rockies",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Bottineau Winter Park",
@@ -2949,7 +3685,9 @@
     "latitude": 48.9503336,
     "longitude": -100.4728867,
     "region": "Rockies",
-    "popularity": 0.4
+    "popularity": 0.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hillberg",
@@ -2957,7 +3695,9 @@
     "latitude": 61.47184489537997,
     "longitude": -149.92268223198457,
     "region": "West",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cottonwood Butte",
@@ -2965,7 +3705,9 @@
     "latitude": 46.0687691,
     "longitude": -116.4654234,
     "region": "Rockies",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Lonesome Pine Trails – Fort Kent",
@@ -2973,7 +3715,9 @@
     "latitude": 47.2397986,
     "longitude": -68.5945123,
     "region": "Northeast",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Ausblick – Sussex",
@@ -2981,7 +3725,9 @@
     "latitude": 43.1339,
     "longitude": -88.22204,
     "region": "Midwest",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Boyce Park",
@@ -2989,7 +3735,9 @@
     "latitude": 40.4646364,
     "longitude": -79.7457547,
     "region": "Midatlantic",
-    "popularity": 0.4
+    "popularity": 0.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Crystal Ridge",
@@ -2997,7 +3745,9 @@
     "latitude": 33.4946517,
     "longitude": -117.1585746,
     "region": "West",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Villa Olivia – Bartlett",
@@ -3005,7 +3755,9 @@
     "latitude": 42.0125699,
     "longitude": -88.2208353,
     "region": "Midwest",
-    "popularity": 1.0
+    "popularity": 1.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Plumas Eureka Ski Bowl",
@@ -3013,7 +3765,9 @@
     "latitude": 39.7662979,
     "longitude": -120.7000056,
     "region": "West",
-    "popularity": 1.1
+    "popularity": 1.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Coppervale",
@@ -3021,7 +3775,9 @@
     "latitude": 40.3465575,
     "longitude": -120.9049574,
     "region": "West",
-    "popularity": 0.9
+    "popularity": 0.9,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Navarino Hills (temporarily closed)",
@@ -3029,7 +3785,9 @@
     "latitude": 41.55419,
     "longitude": -91.53489,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cranor Ski Hill – Gunnison",
@@ -3037,7 +3795,9 @@
     "latitude": 38.5848815,
     "longitude": -106.8960076,
     "region": "Rockies",
-    "popularity": 0.2
+    "popularity": 0.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Big Creek Ski Area",
@@ -3045,7 +3805,9 @@
     "latitude": 41.6466364,
     "longitude": -81.1832982,
     "region": "Midwest",
-    "popularity": 0.3
+    "popularity": 0.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Cochran",
@@ -3053,7 +3815,9 @@
     "latitude": 44.39535773004907,
     "longitude": -72.98236233835452,
     "region": "Northeast",
-    "popularity": 0.3
+    "popularity": 0.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Winter Park – Kewaunee County",
@@ -3061,7 +3825,9 @@
     "latitude": 44.48279,
     "longitude": -87.51434,
     "region": "Midwest",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mount Greylock – South Williamstown",
@@ -3069,7 +3835,9 @@
     "latitude": 42.6713648,
     "longitude": -73.2426812,
     "region": "Northeast",
-    "popularity": 0.4
+    "popularity": 0.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Storrs Hill – Lebanon",
@@ -3077,7 +3845,9 @@
     "latitude": 43.6206269,
     "longitude": -72.2531458,
     "region": "Northeast",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Lake City Ski Hill",
@@ -3085,7 +3855,9 @@
     "latitude": 38.0101747,
     "longitude": -107.3135389,
     "region": "Rockies",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Whitetail Ridge – Fort McCoy",
@@ -3093,7 +3865,9 @@
     "latitude": 44.02205685884782,
     "longitude": -90.72008676757686,
     "region": "Midwest",
-    "popularity": 0.2
+    "popularity": 0.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Ascutney Mountain",
@@ -3101,7 +3875,9 @@
     "latitude": 43.4250721,
     "longitude": -72.5037021,
     "region": "Northeast",
-    "popularity": 1.8
+    "popularity": 1.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mt. Pisgah",
@@ -3109,7 +3885,9 @@
     "latitude": 44.34581479646872,
     "longitude": -74.12387310849257,
     "region": "Northeast",
-    "popularity": 0.4
+    "popularity": 0.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Little Ski Hill",
@@ -3117,7 +3895,9 @@
     "latitude": 44.9281469,
     "longitude": -116.1616596,
     "region": "Rockies",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Elk Ridge – Williams (temporarily closed)",
@@ -3125,7 +3905,9 @@
     "latitude": 35.24946,
     "longitude": -112.191,
     "region": "Rockies",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Northeast Slopes – East Corinth",
@@ -3133,7 +3915,9 @@
     "latitude": 44.0726572,
     "longitude": -72.2506714,
     "region": "Northeast",
-    "popularity": 0.7
+    "popularity": 0.7,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Badger Mountain",
@@ -3141,7 +3925,9 @@
     "latitude": 47.613169051393875,
     "longitude": -120.13071176328224,
     "region": "West",
-    "popularity": 0.6
+    "popularity": 0.6,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Beartown",
@@ -3149,7 +3935,9 @@
     "latitude": 40.1114871,
     "longitude": -75.9774442,
     "region": "Midatlantic",
-    "popularity": 0.2
+    "popularity": 0.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Veterans Memorial – Franklin",
@@ -3157,7 +3945,9 @@
     "latitude": 43.44566640220448,
     "longitude": -71.69102128061256,
     "region": "Northeast",
-    "popularity": 0.2
+    "popularity": 0.2,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Spruce Mountain – Jay",
@@ -3165,7 +3955,9 @@
     "latitude": 44.5564516,
     "longitude": -70.2000603,
     "region": "Northeast",
-    "popularity": 0.4
+    "popularity": 0.4,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Living Memorial Park – Brattleboro",
@@ -3173,7 +3965,9 @@
     "latitude": 42.8444468,
     "longitude": -72.5866597,
     "region": "Northeast",
-    "popularity": 0.1
+    "popularity": 0.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Abenaki",
@@ -3181,7 +3975,9 @@
     "latitude": 44.0590876,
     "longitude": -71.1290104,
     "region": "Northeast",
-    "popularity": 0.1
+    "popularity": 0.1,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Brantling",
@@ -3189,7 +3985,9 @@
     "latitude": 43.1475643,
     "longitude": -77.0688618,
     "region": "Midatlantic",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Chapman Hill – Durango",
@@ -3197,7 +3995,9 @@
     "latitude": 37.364499449691344,
     "longitude": -107.9114642418378,
     "region": "Rockies",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Mulligan's Hollow Ski Bowl",
@@ -3205,7 +4005,9 @@
     "latitude": 43.057799441470166,
     "longitude": -86.2392235770761,
     "region": "Midwest",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Meany Lodge",
@@ -3213,7 +4015,9 @@
     "latitude": 47.2803341,
     "longitude": -121.3202929,
     "region": "West",
-    "popularity": 0.8
+    "popularity": 0.8,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Ski Maxx – Colorado Springs (dry slopes)",
@@ -3221,7 +4025,9 @@
     "latitude": 38.83388,
     "longitude": -104.82136,
     "region": "Rockies",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Kettlebowl",
@@ -3229,7 +4035,9 @@
     "latitude": 45.2711685,
     "longitude": -88.9019293,
     "region": "Midwest",
-    "popularity": 0.5
+    "popularity": 0.5,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Challenge Mountain – Walloon Lake",
@@ -3237,7 +4045,9 @@
     "latitude": 45.26612,
     "longitude": -84.93366,
     "region": "Midwest",
-    "popularity": 0.3
+    "popularity": 0.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Powers Bluff",
@@ -3245,7 +4055,9 @@
     "latitude": 44.5333005,
     "longitude": -90.0727474,
     "region": "Midwest",
-    "popularity": 0.0
+    "popularity": 0.0,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Leavenworth Ski Hill",
@@ -3253,7 +4065,9 @@
     "latitude": 47.6141826,
     "longitude": -120.6696057,
     "region": "West",
-    "popularity": 0.3
+    "popularity": 0.3,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Ruby Mountain",
@@ -3261,7 +4075,9 @@
     "latitude": 40.7181396762498,
     "longitude": -115.41659554580436,
     "region": "West",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Hiawatha – Rock River Township",
@@ -3269,7 +4085,9 @@
     "latitude": 46.3334206,
     "longitude": -86.7416667,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Adventure Mountain – Greenland",
@@ -3277,7 +4095,9 @@
     "latitude": 46.7711111,
     "longitude": -89.0833333,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Keyes Peak",
@@ -3285,7 +4105,9 @@
     "latitude": 45.89605141197835,
     "longitude": -88.2993590750454,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
   },
   {
     "name": "Standing Rocks",
@@ -3293,6 +4115,48 @@
     "latitude": 44.43197150378706,
     "longitude": -89.40030149529186,
     "region": "Midwest",
-    "popularity": null
+    "popularity": null,
+    "Ikon": false,
+    "Epic": false
+  },
+  {
+    "name": "Wilmot",
+    "ticket_cost": 85,
+    "latitude": 42.49909320057286,
+    "longitude": -88.18752072832933,
+    "region": "Midwest",
+    "popularity": 1.6,
+    "Ikon": false,
+    "Epic": true
+  },
+  {
+    "name": "Paoli Peaks",
+    "ticket_cost": 85,
+    "latitude": 38.55581749617731,
+    "longitude": -86.51231633408526,
+    "region": "Midwest",
+    "popularity": 1.3,
+    "Ikon": false,
+    "Epic": true
+  },
+  {
+    "name": "Northstar - North Tahoe",
+    "ticket_cost": 142,
+    "latitude": 39.26474511918985,
+    "longitude": -120.13315461349146,
+    "region": "West",
+    "popularity": 2.4,
+    "Ikon": false,
+    "Epic": true
+  },
+  {
+    "name": "Camelback Resort",
+    "ticket_cost": 50,
+    "latitude": 41.04936423515176,
+    "longitude": -75.35099926706275,
+    "region": "Midatlantic",
+    "popularity": 1.8,
+    "Ikon": true,
+    "Epic": false
   }
 ]
