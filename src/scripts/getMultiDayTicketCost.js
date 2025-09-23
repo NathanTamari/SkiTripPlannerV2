@@ -10,7 +10,7 @@ const EPIC_MULTIPLIERS = {
   7: 723 / 125,  // 5.784
 };
 
-function getMultiDayTicketCost(basePrice, days) {
+function getMultiDayTicketCost(basePrice, days, guests) {
   if (!basePrice || !isFinite(basePrice) || !days || days < 1) return null;
 
   // Cap at 7 with Epic curve; for >7, extend using per-day average of day-7
@@ -22,7 +22,7 @@ function getMultiDayTicketCost(basePrice, days) {
   const avgPerDayAt7 = day7Factor / 7; // ~0.8263 of 1-day price per day
   const extraDays = days - 7;
   const factor = day7Factor + extraDays * avgPerDayAt7;
-  return basePrice * factor;
+  return basePrice * factor * guests;
 }
 
 export default getMultiDayTicketCost;

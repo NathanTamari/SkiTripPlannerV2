@@ -70,7 +70,7 @@ const EPIC_MULTIPLIERS_LOCAL = {
   7: 723 / 125,
 };
 
-function getMultiDayTicketCostLocal(basePrice, days) {
+function getMultiDayTicketCostLocal(basePrice, days, guests) {
   if (!basePrice || !isFinite(basePrice) || !days || days < 1) return null;
   if (days <= 7)
     return basePrice * (EPIC_MULTIPLIERS_LOCAL[days] ?? EPIC_MULTIPLIERS_LOCAL[7]);
@@ -423,6 +423,7 @@ function SubmitPage({ data, onBack }) {
                       score={r.popularity}
                       housing_cost={price ?? "…"} // total housing for stay
                       nights={nights}
+                      guests={data.Guests}
                     />
                   </AnimatedOnMount>
                 );
