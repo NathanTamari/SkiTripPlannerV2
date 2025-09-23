@@ -34,10 +34,6 @@ async function mapWithConcurrency(items, limit, mapper) {
   return results;
 }
 
-/**
- * AnimatedOnMount
- * Uses AOS's "zoom-in" animation immediately on mount (not on scroll).
- */
 function AnimatedOnMount({ children }) {
   const ref = useRef(null);
 
@@ -60,9 +56,6 @@ function AnimatedOnMount({ children }) {
   return <div ref={ref}>{children}</div>;
 }
 
-/* =========================================================================
-   Local copies of cost math so sorting can use EXACT totals as <PossibleTrip/>
-   ========================================================================= */
 const DEFAULT_AVG_GAS_PRICE = 3.75; // $/gal
 const DEFAULT_CAR_MPG = 28; // mpg
 const DEFAULT_AVG_SPEED = 55; // mph
@@ -125,20 +118,25 @@ function estimateRoundTripGasCostLocal({
   return Number.isNaN(cost) ? 0 : cost;
 }
 
-function SubmitPage({ data }) {
-  const safeData = useMemo(
-    () => ({
-      Region: data?.Region ?? "All",
-      "Zip Code": data?.["Zip Code"] ?? "90210",
-      Guests: data?.Guests ?? 2,
-      checkIn: data?.checkIn ?? "2025-12-25",
-      checkOut: data?.checkOut ?? "2025-12-29",
-    }),
-    [data]
-  );
+/* =========================
+   INLINE SORTING UTILITIES
+   ========================= */
+function applySortInline(list, key, dir, getTotalCostForResort) {
+  const sorted = sort_resorts(list, key, getTotalCostForResort);
+  return dir === "desc" ? [...sorted].reverse() : sorted;
+}
+function sameOrder(a, b) {
+  if (a === b) return true;
+  if (!a || !b || a.length !== b.length) return false;
+  for (let i = 0; i < a.length; i++) {
+    if (getResortKey(a[i]) !== getResortKey(b[i])) return false;
+  }
+  return true;
+}
 
+function SubmitPage({ data }) {
   const [resorts, setResorts] = useState(() =>
-    calculateResortsDriving(safeData.Region, safeData["Zip Code"])
+    calculateResortsDriving(data.Region, data["Zip Code"])
   );
 
   const [prices, setPrices] = useState({});
@@ -146,11 +144,16 @@ function SubmitPage({ data }) {
   const [pendingKeys, setPendingKeys] = useState([]);
   const [includeSmall, setIncludeSmall] = useState(true);
 
+  // sort state (ascending/descending + current key)
+  const [sortKey, setSortKey] = useState("Relevant");
+  const [sortDir, setSortDir] = useState("asc"); // 'asc' | 'desc'
+
+
   const pendingRef = useRef([]);
   const processingRef = useRef(false);
   const timerRef = useRef(null);
   const inflightRef = useRef(new Set()); // keys currently being requested
-  const pricesRef = useRef(prices);      // mirror of prices to avoid deps warning
+  const pricesRef = useRef(prices); // mirror of prices to avoid deps warning
 
   const { predict } = usePredictPrice();
 
@@ -170,9 +173,9 @@ function SubmitPage({ data }) {
 
   // Number of nights (and ski days for ticket calculation)
   const nights = useMemo(() => {
-    const n = dayjs(safeData.checkOut).diff(dayjs(safeData.checkIn), "day");
+    const n = dayjs(data.checkOut).diff(dayjs(data.checkIn), "day");
     return Math.max(1, n || 1);
-  }, [safeData.checkIn, safeData.checkOut]);
+  }, [data.checkIn, data.checkOut]);
 
   // --------- Total cost callback for sorting (tickets + housing + gas)
   const getTotalCostForResort = (r) => {
@@ -198,10 +201,10 @@ function SubmitPage({ data }) {
     return resorts.filter((r) => (r?.popularity ?? 0) > 1.5);
   }, [resorts, includeSmall]);
 
-  // Pull the specific safeData fields we use into stable vars (so eslint doesn’t demand 'safeData')
-  const guests = safeData.Guests;
-  const checkIn = safeData.checkIn;
-  const checkOut = safeData.checkOut;
+  // Pull the specific data fields we use into stable vars (so eslint doesn’t demand 'data')
+  const guests = data.Guests;
+  const checkIn = data.checkIn;
+  const checkOut = data.checkOut;
 
   // Fetch housing prices for all resorts, but only those missing from cache.
   useEffect(() => {
@@ -210,10 +213,8 @@ function SubmitPage({ data }) {
     let mounted = true;
     const ac = new AbortController(); // for axios aborts
 
-    // Figure out which need fetching (no price and not in-flight)
     const missing = resorts.filter((r) => {
       const k = getResortKey(r);
-      // NOTE: use pricesRef.current (not 'prices') to avoid deps + refires
       return !(k in pricesRef.current) && !inflightRef.current.has(k);
     });
     if (missing.length === 0) return;
@@ -226,7 +227,6 @@ function SubmitPage({ data }) {
           if (mounted) {
             setPrices((prev) => {
               const next = { ...prev, [key]: null };
-              // sanity mirror for console inspection
               window.__prices = next;
               return next;
             });
@@ -249,7 +249,6 @@ function SubmitPage({ data }) {
             typeof res === "object" ? (res.ok ? res.price : null) : res;
           setPrices((prev) => {
             const next = { ...prev, [key]: value };
-            // sanity mirror for console inspection
             window.__prices = next;
             return next;
           });
@@ -261,12 +260,11 @@ function SubmitPage({ data }) {
 
     return () => {
       mounted = false;
-      ac.abort(); // cancel any stragglers on dependency change/unmount
+      ac.abort();
     };
-    // deps intentionally exclude 'prices' and 'safeData'
   }, [resorts, guests, checkIn, checkOut, predict]);
 
-  // Enqueue newly priced cards (uses ref; linter OK)
+  // Enqueue newly priced cards
   useEffect(() => {
     const shown = new Set(displayedKeys);
     const queued = new Set(pendingRef.current);
@@ -283,7 +281,7 @@ function SubmitPage({ data }) {
     }
   }, [prices, displayedKeys]);
 
-  // When the visibility filter changes, enqueue priced-but-hidden items for reveal.
+  // When the visibility filter changes, enqueue priced-but-hidden items
   useEffect(() => {
     const visibleKeys = new Set(visibleResorts.map(getResortKey));
     const shown = new Set(displayedKeys);
@@ -332,19 +330,40 @@ function SubmitPage({ data }) {
     };
   }, [pendingKeys]);
 
-  const handleFormChange = (_title, value) => {
-    // Pass total-cost callback so "Price" truly means TOTAL price (tickets + housing + gas)
-    const sorted = sort_resorts(resorts, value, getTotalCostForResort);
-    setResorts(sorted);
+  // Sort initial list once after mount so view matches default controls
+  useEffect(() => {
+    setResorts((prev) => applySortInline(prev, sortKey, sortDir, getTotalCostForResort));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // 🔥 KEY CHANGE:
+  // Re-apply sorting whenever prices change (or sort controls / nights).
+  // This guarantees that newly-priced cheapest items bubble straight to the top.
+  useEffect(() => {
+    if (!resorts || resorts.length === 0) return;
+    setResorts((prev) => {
+      const next = applySortInline(prev, sortKey, sortDir, getTotalCostForResort);
+      return sameOrder(prev, next) ? prev : next;
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [prices, sortKey, sortDir, nights]);
+
+  // When the user changes sort controls, re-apply to current list
+  const handleSortChange = (_title, payload) => {
+    const key = typeof payload === "string" ? payload : payload?.key;
+    const dir = typeof payload === "string" ? sortDir : payload?.direction || "asc";
+    setSortKey(key);
+    setSortDir(dir);
+    setResorts((prev) => applySortInline(prev, key, dir, getTotalCostForResort));
   };
 
   // Display mapping: "All" -> "U.S."
   const header = useMemo(() => {
-    const displayRegion = safeData.Region === "All" ? "U.S." : safeData.Region;
+    const displayRegion = data.Region === "All" ? "U.S." : data.Region;
     let h = `Available ski trips in the ${displayRegion}`;
-    h += safeData["Zip Code"] ? ` leaving from ${safeData["Zip Code"]}:` : ":";
+    h += data["Zip Code"] ? ` leaving from ${data["Zip Code"]}:` : ":";
     return h;
-  }, [safeData]);
+  }, [data]);
 
   const subheader = `${data.checkIn} → ${data.checkOut} • ${
     data.Guests
@@ -394,15 +413,30 @@ function SubmitPage({ data }) {
         <div className="page-hero">
           <h2 className="hero-title">{header}</h2>
           <div className="hero-sub">{subheader}</div>
-          <div className="hero-controls">
-            <span className="sort-label">Sort By:</span>
-            <div className="sort-by">
-              <SortByDropdown
-                options={["Relevant", "Distance", "Price", "Most Trails"]}
-                onChange={handleFormChange}
-              />
-            </div>
-            <span className="flake">❄︎</span>
+          <div
+            className="hero-controls"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 12,
+              color: "#fff",
+              fontSize: "1.25rem",
+              lineHeight: 1.2,
+            }}
+          >
+            <span className="sort-label" style={{ opacity: 0.9 }}>
+              Sort By:
+            </span>
+            <SortByDropdown
+              options={["Relevant", "Distance", "Price", "Most Trails"]}
+              value={sortKey}
+              direction={sortDir}
+              onChange={handleSortChange}
+              tone="onDark"
+            />
+            <span className="flake" aria-hidden="true">
+              ❄︎
+            </span>
           </div>
         </div>
 
@@ -423,7 +457,6 @@ function SubmitPage({ data }) {
                       score={r.popularity}
                       housing_cost={price ?? "…"} // total housing for stay
                       nights={nights}
-                      // distance_miles={r.distance_miles}
                     />
                   </AnimatedOnMount>
                 );

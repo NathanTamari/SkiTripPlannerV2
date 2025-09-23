@@ -15,6 +15,14 @@ function HomePage() {
   const [data, setData] = useState(null);
   const [formValues, setFormValues] = useState({});
 
+  const DEFAULTS = {
+    region: "All",
+    zip: "90210",
+    guests: 2,
+    startDate: () => dayjs().format("YYYY-MM-DD"),
+    endDate: () => dayjs().add(3, "day").format("YYYY-MM-DD"),
+  };
+
   const handleFormChange = (title, value) => {
     setFormValues((prev) =>
       title === "Start Date"
@@ -85,26 +93,66 @@ function HomePage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Raw values from the form + any live controlled values (date pickers, checkboxes, etc)
     const formData = new FormData(e.target);
     const rawData = {
       ...Object.fromEntries(formData.entries()),
       ...formValues,
     };
 
-    // Convert Dayjs to string for submission
+    // Convert Dayjs to "YYYY-MM-DD" strings (if they are Dayjs objects)
     const formObject = {
       ...rawData,
-      "Start Date": rawData["Start Date"]?.format?.("YYYY-MM-DD") || "",
-      "End Date": rawData["End Date"]?.format?.("YYYY-MM-DD") || "",
+      "Start Date": rawData["Start Date"]?.format?.("YYYY-MM-DD") || rawData["Start Date"] || "",
+      "End Date": rawData["End Date"]?.format?.("YYYY-MM-DD") || rawData["End Date"] || "",
     };
+
+    // --------- Apply defaults + normalize (without changing the object name "data")
+    // Keep original keys-with-spaces for backwards compatibility,
+    // and ALSO provide normalized fields SubmitPage expects.
+    const patched = { ...formObject };
+
+    // Defaults for original keys
+    patched["Region"] = patched["Region"] || DEFAULTS.region;
+    patched["Zip Code"] = patched["Zip Code"] || DEFAULTS.zip;
+
+    // Ensure number and default for guests
+    const guestsNum = Number(
+      patched["Number of Guests"] !== undefined && patched["Number of Guests"] !== ""
+        ? patched["Number of Guests"]
+        : DEFAULTS.guests
+    );
+    patched["Number of Guests"] = Number.isFinite(guestsNum) ? guestsNum : DEFAULTS.guests;
+
+    // Dates (if either missing, fill sensible defaults)
+    const startDateStr =
+      patched["Start Date"] && String(patched["Start Date"]).trim()
+        ? String(patched["Start Date"])
+        : DEFAULTS.startDate();
+    const endDateStr =
+      patched["End Date"] && String(patched["End Date"]).trim()
+        ? String(patched["End Date"])
+        : DEFAULTS.endDate();
+
+    // If user provided only one date, keep them consistent
+    // (SubmitPage can handle ranges but this avoids undefineds)
+    patched["Start Date"] = startDateStr;
+    patched["End Date"] = endDateStr;
+
+    // ---------- Normalized fields for SubmitPage convenience
+    // (keeping your original object name/shape while adding these)
+    patched.Guests = patched["Number of Guests"]; // numeric
+    patched.checkIn = startDateStr;
+    patched.checkOut = endDateStr;
 
     // Simulate API
     const response = await new Promise((resolve) =>
-      setTimeout(() => resolve({ success: true, data: formObject }), 1500)
+      setTimeout(() => resolve({ success: true, data: patched }), 500)
     );
 
     if (response.success) {
-      setData(response.data);
+      setData(response.data); // <- this 'data' now always has defaults + normalized fields
     }
   };
 
