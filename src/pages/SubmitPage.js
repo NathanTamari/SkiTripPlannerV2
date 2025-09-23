@@ -119,7 +119,7 @@ function estimateRoundTripGasCostLocal({
 }
 
 /* =========================
-   INLINE SORTING UTILITIES
+   Sorting utilities
    ========================= */
 function applySortInline(list, key, dir, getTotalCostForResort) {
   const sorted = sort_resorts(list, key, getTotalCostForResort);
@@ -134,7 +134,25 @@ function sameOrder(a, b) {
   return true;
 }
 
-function SubmitPage({ data }) {
+// Simple pill toggles under "Sort By"
+function FilterToggles({ toggles, onToggle }) {
+  return (
+    <div className="filter-toggles">
+      {toggles.map((t) => (
+        <label key={t.key} className="filter-toggle-pill">
+          <input
+            type="checkbox"
+            checked={!!t.checked}
+            onChange={(e) => onToggle(t.key, e.target.checked)}
+          />
+          {t.label}
+        </label>
+      ))}
+    </div>
+  );
+}
+
+function SubmitPage({ data, onBack }) {
   const [resorts, setResorts] = useState(() =>
     calculateResortsDriving(data.Region, data["Zip Code"])
   );
@@ -144,25 +162,20 @@ function SubmitPage({ data }) {
   const [pendingKeys, setPendingKeys] = useState([]);
   const [includeSmall, setIncludeSmall] = useState(true);
 
-  // sort state (ascending/descending + current key)
   const [sortKey, setSortKey] = useState("Relevant");
-  const [sortDir, setSortDir] = useState("asc"); // 'asc' | 'desc'
-
+  const [sortDir, setSortDir] = useState("asc");
 
   const pendingRef = useRef([]);
   const processingRef = useRef(false);
   const timerRef = useRef(null);
-  const inflightRef = useRef(new Set()); // keys currently being requested
-  const pricesRef = useRef(prices); // mirror of prices to avoid deps warning
+  const inflightRef = useRef(new Set());
+  const pricesRef = useRef(prices);
 
   const { predict } = usePredictPrice();
-
-  // keep pricesRef fresh
   useEffect(() => {
     pricesRef.current = prices;
   }, [prices]);
 
-  // Initialize AOS
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -171,13 +184,11 @@ function SubmitPage({ data }) {
     });
   }, []);
 
-  // Number of nights (and ski days for ticket calculation)
   const nights = useMemo(() => {
     const n = dayjs(data.checkOut).diff(dayjs(data.checkIn), "day");
     return Math.max(1, n || 1);
   }, [data.checkIn, data.checkOut]);
 
-  // --------- Total cost callback for sorting (tickets + housing + gas)
   const getTotalCostForResort = (r) => {
     const key = getResortKey(r);
     const housing = prices[key];
@@ -195,18 +206,16 @@ function SubmitPage({ data }) {
     return Number.isFinite(total) ? total : Number.POSITIVE_INFINITY;
   };
 
-  // Filtered resorts list (>1.5 popularity unless includeSmall)
   const visibleResorts = useMemo(() => {
     if (includeSmall) return resorts;
     return resorts.filter((r) => (r?.popularity ?? 0) > 1.5);
   }, [resorts, includeSmall]);
 
-  // Pull the specific data fields we use into stable vars (so eslint doesn’t demand 'data')
   const guests = data.Guests;
   const checkIn = data.checkIn;
   const checkOut = data.checkOut;
 
-  // Fetch housing prices for all resorts, but only those missing from cache.
+  // Fetch housing prices for missing resorts with concurrency
   useEffect(() => {
     if (!resorts || resorts.length === 0) return;
 
@@ -281,26 +290,6 @@ function SubmitPage({ data }) {
     }
   }, [prices, displayedKeys]);
 
-  // When the visibility filter changes, enqueue priced-but-hidden items
-  useEffect(() => {
-    const visibleKeys = new Set(visibleResorts.map(getResortKey));
-    const shown = new Set(displayedKeys);
-    const queued = new Set(pendingRef.current);
-    const readyNow = [];
-
-    for (const [key, price] of Object.entries(prices)) {
-      const priced = typeof price === "number" && isFinite(price);
-      if (priced && visibleKeys.has(key) && !shown.has(key) && !queued.has(key)) {
-        readyNow.push(key);
-      }
-    }
-
-    if (readyNow.length) {
-      pendingRef.current = [...pendingRef.current, ...readyNow];
-      setPendingKeys(pendingRef.current);
-    }
-  }, [includeSmall, visibleResorts, prices, displayedKeys]);
-
   // Reveal at most one every 0.35s
   useEffect(() => {
     if (processingRef.current) return;
@@ -330,15 +319,15 @@ function SubmitPage({ data }) {
     };
   }, [pendingKeys]);
 
-  // Sort initial list once after mount so view matches default controls
+  // Initial sort once
   useEffect(() => {
-    setResorts((prev) => applySortInline(prev, sortKey, sortDir, getTotalCostForResort));
+    setResorts((prev) =>
+      applySortInline(prev, sortKey, sortDir, getTotalCostForResort)
+    );
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // 🔥 KEY CHANGE:
-  // Re-apply sorting whenever prices change (or sort controls / nights).
-  // This guarantees that newly-priced cheapest items bubble straight to the top.
+  // Re-apply sorting whenever prices/sort/nights change
   useEffect(() => {
     if (!resorts || resorts.length === 0) return;
     setResorts((prev) => {
@@ -348,7 +337,6 @@ function SubmitPage({ data }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [prices, sortKey, sortDir, nights]);
 
-  // When the user changes sort controls, re-apply to current list
   const handleSortChange = (_title, payload) => {
     const key = typeof payload === "string" ? payload : payload?.key;
     const dir = typeof payload === "string" ? sortDir : payload?.direction || "asc";
@@ -357,11 +345,10 @@ function SubmitPage({ data }) {
     setResorts((prev) => applySortInline(prev, key, dir, getTotalCostForResort));
   };
 
-  // Display mapping: "All" -> "U.S."
   const header = useMemo(() => {
     const displayRegion = data.Region === "All" ? "U.S." : data.Region;
     let h = `Available ski trips in the ${displayRegion}`;
-    h += data["Zip Code"] ? ` leaving from ${data["Zip Code"]}:` : ":";
+    h += data["Zip Code"] ? ` leaving from ${data["Zip Code"]}` : "";
     return h;
   }, [data]);
 
@@ -381,49 +368,17 @@ function SubmitPage({ data }) {
 
       {/* Content layer */}
       <div className="submit-page theme-alpine-plus">
-        {/* Top-right toggle */}
-        <label
-          style={{
-            position: "fixed",
-            top: 12,
-            right: 12,
-            zIndex: 1000,
-            background: "rgba(0,0,0,0.45)",
-            padding: "8px 12px",
-            borderRadius: 12,
-            backdropFilter: "blur(4px)",
-            WebkitBackdropFilter: "blur(4px)",
-            display: "flex",
-            alignItems: "center",
-            gap: 8,
-            color: "#fff",
-            fontSize: 14,
-            userSelect: "none",
-          }}
-        >
-          <input
-            type="checkbox"
-            checked={includeSmall}
-            onChange={(e) => setIncludeSmall(e.target.checked)}
-            style={{ transform: "scale(1.1)" }}
-          />
-          Include small mountains
-        </label>
-
-        <div className="page-hero">
+        {/* Title bar: Back left, title centered */}
+        <div className="title-bar">
+          <button className="back-btn" onClick={onBack}>← Back</button>
           <h2 className="hero-title">{header}</h2>
-          <div className="hero-sub">{subheader}</div>
-          <div
-            className="hero-controls"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 12,
-              color: "#fff",
-              fontSize: "1.25rem",
-              lineHeight: 1.2,
-            }}
-          >
+        </div>
+
+        <div className="hero-sub">{subheader}</div>
+
+        {/* Controls centered */}
+        <div className="hero-controls">
+          <div className="controls-row">
             <span className="sort-label" style={{ opacity: 0.9 }}>
               Sort By:
             </span>
@@ -438,6 +393,17 @@ function SubmitPage({ data }) {
               ❄︎
             </span>
           </div>
+
+          {/* Include small mountains under Sort By */}
+          <FilterToggles
+            toggles={[
+              { key: "includeSmall", label: "Include small mountains", checked: includeSmall },
+              // Add more toggles here later if needed
+            ]}
+            onToggle={(key, checked) => {
+              if (key === "includeSmall") setIncludeSmall(checked);
+            }}
+          />
         </div>
 
         {visibleResorts.length > 0 ? (

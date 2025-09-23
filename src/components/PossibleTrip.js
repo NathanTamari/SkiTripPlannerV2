@@ -7,7 +7,7 @@ function currency(n) {
   return `$${Number(n).toFixed(2)}`;
 }
 
-export default function PossibleTrip({
+function PossibleTrip({
   name,
   drivingTime,
   ticket_cost,   // base 1-day lift ticket price
@@ -67,3 +67,5 @@ export default function PossibleTrip({
     </article>
   );
 }
+
+export default PossibleTrip;

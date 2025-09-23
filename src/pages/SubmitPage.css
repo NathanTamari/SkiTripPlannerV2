@@ -21,7 +21,6 @@
   z-index: 0;
 }
 
-
 .submit-video-container video {
   width: 100%;
   height: 100%;
@@ -143,9 +142,8 @@
 }
 .hero-controls {
   margin-top: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   gap: 10px;
 }
 .sort-label { color: rgba(243,247,250,0.9); }
@@ -177,4 +175,61 @@
 /* Skeletons anchored at end (no animation) */
 .skeleton-at-end {
   opacity: 1;
+}
+
+/* ===== Title bar: Back left, title centered ===== */
+.title-bar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.title-bar .hero-title {
+  grid-column: 2;
+  justify-self: center;
+  margin: 0;
+  text-align: center;
+}
+.back-btn {
+  grid-column: 1;
+  justify-self: start;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  font-size: 14px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* ===== Controls centered (Sort By row + toggles) ===== */
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.filter-toggles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.filter-toggle-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 12px;
+  background: rgba(0,0,0,0.35);
+  color: #fff;
+  font-size: 14px;
+  user-select: none;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.filter-toggle-pill input {
+  transform: scale(1.05);
 }

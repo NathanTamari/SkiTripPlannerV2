@@ -13,6 +13,11 @@ import SubmitPage from "./SubmitPage";
 function HomePage() {
   const [init, setInit] = useState(false);
   const [data, setData] = useState(null);
+
+  // Used to force-remount the form so ALL fields reset on Back
+  const [formInstance, setFormInstance] = useState(0);
+
+  // Controlled only for dates/checkboxes (matches your components)
   const [formValues, setFormValues] = useState({});
 
   const DEFAULTS = {
@@ -73,10 +78,7 @@ function HomePage() {
           speed: 6,
           straight: false,
         },
-        number: {
-          density: { enable: true },
-          value: 60,
-        },
+        number: { density: { enable: true }, value: 60 },
         opacity: { value: 0.8 },
         shape: { type: "circle" },
         size: { value: { min: 2, max: 7 } },
@@ -91,68 +93,57 @@ function HomePage() {
     []
   );
 
+  const makePatchedData = (raw) => {
+    const startStr =
+      raw["Start Date"]?.format?.("YYYY-MM-DD") || raw["Start Date"] || "";
+    const endStr =
+      raw["End Date"]?.format?.("YYYY-MM-DD") || raw["End Date"] || "";
+
+    const patched = {
+      ...raw,
+      // defaults
+      Region: raw["Region"] || DEFAULTS.region,
+      "Zip Code": raw["Zip Code"] || DEFAULTS.zip,
+      "Number of Guests": (() => {
+        const n =
+          raw["Number of Guests"] !== undefined && raw["Number of Guests"] !== ""
+            ? Number(raw["Number of Guests"])
+            : DEFAULTS.guests;
+        return Number.isFinite(n) ? n : DEFAULTS.guests;
+      })(),
+      "Start Date": startStr || DEFAULTS.startDate(),
+      "End Date": endStr || DEFAULTS.endDate(),
+      "Willing to fly?": !!raw["Willing to fly?"],
+      Stay: raw["Stay"] || "Both",
+      "Epic Pass": !!raw["Epic Pass"],
+      "Ikon Pass": !!raw["Ikon Pass"],
+    };
+
+    // normalized fields for SubmitPage
+    patched.Guests = patched["Number of Guests"];
+    patched.checkIn = patched["Start Date"];
+    patched.checkOut = patched["End Date"];
+    return patched;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Raw values from the form + any live controlled values (date pickers, checkboxes, etc)
     const formData = new FormData(e.target);
     const rawData = {
       ...Object.fromEntries(formData.entries()),
       ...formValues,
     };
 
-    // Convert Dayjs to "YYYY-MM-DD" strings (if they are Dayjs objects)
-    const formObject = {
-      ...rawData,
-      "Start Date": rawData["Start Date"]?.format?.("YYYY-MM-DD") || rawData["Start Date"] || "",
-      "End Date": rawData["End Date"]?.format?.("YYYY-MM-DD") || rawData["End Date"] || "",
-    };
-
-    // --------- Apply defaults + normalize (without changing the object name "data")
-    // Keep original keys-with-spaces for backwards compatibility,
-    // and ALSO provide normalized fields SubmitPage expects.
-    const patched = { ...formObject };
-
-    // Defaults for original keys
-    patched["Region"] = patched["Region"] || DEFAULTS.region;
-    patched["Zip Code"] = patched["Zip Code"] || DEFAULTS.zip;
-
-    // Ensure number and default for guests
-    const guestsNum = Number(
-      patched["Number of Guests"] !== undefined && patched["Number of Guests"] !== ""
-        ? patched["Number of Guests"]
-        : DEFAULTS.guests
-    );
-    patched["Number of Guests"] = Number.isFinite(guestsNum) ? guestsNum : DEFAULTS.guests;
-
-    // Dates (if either missing, fill sensible defaults)
-    const startDateStr =
-      patched["Start Date"] && String(patched["Start Date"]).trim()
-        ? String(patched["Start Date"])
-        : DEFAULTS.startDate();
-    const endDateStr =
-      patched["End Date"] && String(patched["End Date"]).trim()
-        ? String(patched["End Date"])
-        : DEFAULTS.endDate();
-
-    // If user provided only one date, keep them consistent
-    // (SubmitPage can handle ranges but this avoids undefineds)
-    patched["Start Date"] = startDateStr;
-    patched["End Date"] = endDateStr;
-
-    // ---------- Normalized fields for SubmitPage convenience
-    // (keeping your original object name/shape while adding these)
-    patched.Guests = patched["Number of Guests"]; // numeric
-    patched.checkIn = startDateStr;
-    patched.checkOut = endDateStr;
+    const patched = makePatchedData(rawData);
 
     // Simulate API
     const response = await new Promise((resolve) =>
-      setTimeout(() => resolve({ success: true, data: patched }), 500)
+      setTimeout(() => resolve({ success: true, data: patched }), 200)
     );
 
     if (response.success) {
-      setData(response.data); // <- this 'data' now always has defaults + normalized fields
+      setData(response.data);
     }
   };
 
@@ -166,7 +157,6 @@ function HomePage() {
 
   return (
     <div className="outer">
-      {/* Only render ski-video.mp4 when showing form */}
       {!data && (
         <div className="video-container" aria-hidden="true">
           <video autoPlay muted loop playsInline>
@@ -177,13 +167,22 @@ function HomePage() {
         </div>
       )}
 
-      {/* Particles always stay visible */}
       {init && <Particles id="tsparticles" options={options} />}
 
       {data ? (
-        <SubmitPage data={data} />
+        <SubmitPage
+          data={data}
+          onBack={() => {
+            // Reset EVERYTHING to a fresh form with defaults
+            setData(null);
+            setFormValues({});
+            setFormInstance((x) => x + 1); // force remount the form
+            // optional: scroll to top
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        />
       ) : (
-        <div className="input-form">
+        <div key={formInstance} className="input-form">
           <form onSubmit={handleSubmit}>
             <div className="row-container">
               <Dropdown
@@ -197,12 +196,14 @@ function HomePage() {
                 ]}
                 label={"Region"}
                 onChange={handleFormChange}
+                defaultValue={DEFAULTS.region}
               />
               <CheckBox name={"Willing to fly?"} onChange={handleFormChange} />
               <Dropdown
                 options={["AirBnB", "Hotel", "Both"]}
                 label={"Stay"}
                 onChange={handleFormChange}
+                defaultValue={"Both"}
               />
             </div>
 
@@ -213,6 +214,7 @@ function HomePage() {
                 min="5"
                 max="5"
                 type="text"
+                defaultValue={DEFAULTS.zip}
               />
               <FormInput
                 name="Number of Guests"
@@ -220,6 +222,7 @@ function HomePage() {
                 type="number"
                 minValue="1"
                 maxValue="1000000"
+                defaultValue={DEFAULTS.guests}
               />
               <CheckBox name={"Epic Pass"} onChange={handleFormChange} />
               <CheckBox name={"Ikon Pass"} onChange={handleFormChange} />
