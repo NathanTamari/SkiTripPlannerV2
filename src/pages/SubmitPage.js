@@ -375,7 +375,7 @@ function SubmitPage({ data, onBack }) {
         </div>
 
         <div className="hero-sub">{subheader}</div>
-
+        <div className="hero-sub">Note: queries can take up to a minute if the server has not been started in a while.</div>
         {/* Controls centered */}
         <div className="hero-controls">
           <div className="controls-row">

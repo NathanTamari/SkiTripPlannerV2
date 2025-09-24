@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SkiTripPlannerV2/static/css/main.a6f97cb9.css",
+    "main.js": "/SkiTripPlannerV2/static/js/main.47387496.js",
+    "static/media/ski-video.mp4": "/SkiTripPlannerV2/static/media/ski-video.1a777e6eae60aaa541cb.mp4",
+    "static/media/submit-page-backdrop.mp4": "/SkiTripPlannerV2/static/media/submit-page-backdrop.a7115208e2980708e488.mp4",
+    "index.html": "/SkiTripPlannerV2/index.html",
+    "main.a6f97cb9.css.map": "/SkiTripPlannerV2/static/css/main.a6f97cb9.css.map",
+    "main.47387496.js.map": "/SkiTripPlannerV2/static/js/main.47387496.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f97cb9.css",
+    "static/js/main.47387496.js"
+  ]
+}
